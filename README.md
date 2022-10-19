@@ -786,7 +786,7 @@ Zz_cryptography advances new bitcoin #thank you
 
 <p align="center">
 
-  <a href="https://github.com/github">
+  </a> 🐦href="https://github.com/github">
     <img src="./images/guia.png" alt="Guia de Cyber Security" width="160" height="160">
   </a>
   <h1 align="center">Guia de Cyber Security</h1>
