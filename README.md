@@ -786,7 +786,13 @@ Zz_cryptography advances new bitcoin #thank you
 
 <p align="center">
 
-  <a href="https://github.com/github"><img src="./images/guia.png" alt="Guia de Cyber Security" width="160" height="160">
+  <a require 'rugged'
+require 'linguist'
+
+repo = Rugged::Repository.new('.')
+project = Linguist::Repository.new(repo, repo.head.target_id)
+project.language       #=> "Ruby"
+project.languages      #=> { "Ruby" => 119387 } <b href="https://github.com/github"><img src="./images/guia.png" alt="Guia de Cyber Security" width="160" height="160">
   </a>
   <h1 align="center">Guia de Cyber Security</h1>
 </p>
