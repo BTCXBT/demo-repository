@@ -796,9 +796,9 @@ Zz_cryptography advances new bitcoin #thank you
 Abaixo você encontrará conteúdos para te guiar e ajudar a se tornar um profissional na área de segurança da informação ou se especializar caso você já atue na área, confira o repositório para descobrir novas ferramentas para o seu dia-a-dia, tecnologias para incorporar na sua stack com foco em se tornar um profissional atualizado e diferenciado em segurança da informação, alguns sites ou artigos podem estar em um idioma diferente do seu, porém isso não impede que você consiga realizar a leitura do artigo ou site em questão, você pode utilizar a ferramenta de tradução do Google para traduzir: sites, arquivos, textos.
 
 <sub> <strong>Siga nas redes sociais para acompanhar mais conteúdos: </strong> <br>
-[<img src = "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/ZeuZZueZ)
+[<img src = "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/BTCXBT)
 [<img src = "https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">](https://www.facebook.com/amanciojunior/)
-[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/amanciojsilvjr/)
+[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/amanciojunior/)
 [<img src = "https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white">](https://twitter.com/amanciojsilvjr)
 [<img src = "https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/amanciojsilvjr/)
 </sub>
@@ -809,7 +809,7 @@ Abaixo você encontrará conteúdos para te guiar e ajudar a se tornar um profis
 
 - Me siga no [Github](https://github.com/ZeuZZueZ)
 - Acesse as redes sociais do [Guia Dev Brasil](https://linktr.ee/amanciojsilvjr)
-- Mande feedbacks no [Linkedin](https://www.linkedin.com/in/arthurspk/)
+- Mande feedbacks no [Linkedin](https://www.linkedin.com/in/amanciojunior/)
 
 > Se você deseja acompanhar esse repositório em outro idioma que não seja o Português , você pode optar pelas escolhas de idiomas abaixo, você também pode colaborar com a tradução para outros idiomas e a correções de possíveis erros ortográficos, a comunidade agradece.
 
