@@ -786,7 +786,7 @@ Zz_cryptography advances new bitcoin #thank you
 
 <p align="center">
 
-  <a href="https://github.com/cybersecurity">
+  <a href="https://github.com/github">
     <img src="./images/guia.png" alt="Guia de Cyber Security" width="160" height="160">
   </a>
   <h1 align="center">Guia de Cyber Security</h1>
@@ -808,9 +808,9 @@ Abaixo você encontrará conteúdos para te guiar e ajudar a se tornar um profis
 
 > Antes de tudo você pode me ajudar e colaborar, deu bastante trabalho fazer esse repositório thanks.
 
-- Me siga no [Github](https://github.com/ZeuZZueZ)
-- Acesse as redes sociais do [Guia Dev Brasil](https://linktr.ee/amanciojsilvjr)
-- Mande feedbacks no [Linkedin](https://www.linkedin.com/in/amanciojunior/)
+- Me siga no [Github](https://github.com/BTCXBT)
+- Acesse as redes sociais do [Guia Dev Brasil](https://br.linkedin.com/in/amancio-j-238b97111/en?trk=people-guest_people_search-card)
+- Mande feedbacks no [Linkedin](https://br.linkedin.com/in/amancio-j-238b97111/en?trk=people-guest_people_search-card/)
 
 > Se você deseja acompanhar esse repositório em outro idioma que não seja o Português , você pode optar pelas escolhas de idiomas abaixo, você também pode colaborar com a tradução para outros idiomas e a correções de possíveis erros ortográficos, a comunidade agradece.
 
