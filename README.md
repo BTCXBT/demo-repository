@@ -792,7 +792,8 @@ require 'linguist'
 repo = Rugged::Repository.new('.')
 project = Linguist::Repository.new(repo, repo.head.target_id)
 project.language       #=> "Ruby"
-project.languages      #=> { "Ruby" => 119387 } <a href="https://github.com/github/action"> <img src="./images/guia.png" alt="Guia de Cyber Security" width="160" height="160">
+project.languages      #=> { "Ruby" => 119387 } <p align="center">
+  <img src="https://avatars0.githubusercontent.com/u/44036562?s=100&v=4"/> "> <img src="./images/guia.png" 
   </a>
   <h1 align="center">Guia de Cyber Security</h1>
 </p>
