@@ -785,7 +785,8 @@ link to your website. [[Become a sponsor](https://opencollective.com/curl#sponso
 Zz_cryptography advances new bitcoin #thank you 
 
 <p align="center">
-  <a href="https://github.com/arthurspk/guiadecybersecurity">
+
+  <a href="https://github.com/cybersecurity">
     <img src="./images/guia.png" alt="Guia de Cyber Security" width="160" height="160">
   </a>
   <h1 align="center">Guia de Cyber Security</h1>
@@ -798,7 +799,7 @@ Abaixo você encontrará conteúdos para te guiar e ajudar a se tornar um profis
 <sub> <strong>Siga nas redes sociais para acompanhar mais conteúdos: </strong> <br>
 [<img src = "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">](https://github.com/BTCXBT)
 [<img src = "https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">](https://www.facebook.com/amanciojunior/)
-[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/amanciojunior/)
+[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://br.linkedin.com/in/amancio-j-238b97111/en?trk=people-guest_people_search-card)
 [<img src = "https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white">](https://twitter.com/amanciojsilvjr)
 [<img src = "https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/amanciojsilvjr/)
 </sub>
