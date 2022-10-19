@@ -2318,3 +2318,201 @@ Abaixo você encontrará conteúdos para te guiar e ajudar a se tornar um profis
   ![Logo](https://i.imgur.com/azUfcQp.png)
 
 
+
+# Guava: Google Core Libraries for Java
+
+[![Latest release](https://img.shields.io/github/release/google/guava.svg)](https://github.com/google/guava/releases/latest)
+[![Build Status](https://github.com/google/guava/workflows/CI/badge.svg?branch=master)](https://github.com/google/guava/actions)
+
+Guava is a set of core Java libraries from Google that includes new collection types
+(such as multimap and multiset), immutable collections, a graph library, and
+utilities for concurrency, I/O, hashing, caching, primitives, strings, and more! It
+is widely used on most Java projects within Google, and widely used by many
+other companies as well.
+
+Guava comes in two flavors:
+
+*   The JRE flavor requires JDK 1.8 or higher.
+*   If you need support for Android, use the Android flavor. You can find the
+    Android Guava source in the [`android` directory].
+
+[`android` directory]: https://github.com/google/guava/tree/master/android
+
+## Adding Guava to your build
+
+Guava's Maven group ID is `com.google.guava`, and its artifact ID is `guava`.
+Guava provides two different "flavors": one for use on a (Java 8+) JRE and one
+for use on Android or by any library that wants to be compatible with Android.
+These flavors are specified in the Maven version field as either `31.1-jre` or
+`31.1-android`. For more about depending on Guava, see
+[using Guava in your build].
+
+To add a dependency on Guava using Maven, use the following:
+
+```xml
+<dependency>
+  <groupId>com.google.guava</groupId>
+  <artifactId>guava</artifactId>
+  <version>31.1-jre</version>
+  <!-- or, for Android: -->
+  <version>31.1-android</version>
+</dependency>
+```
+
+To add a dependency using Gradle:
+
+```gradle
+dependencies {
+  // Pick one:
+
+  // 1. Use Guava in your implementation only:
+  implementation("com.google.guava:guava:31.1-jre")
+
+  // 2. Use Guava types in your public API:
+  api("com.google.guava:guava:31.1-jre")
+
+  // 3. Android - Use Guava in your implementation only:
+  implementation("com.google.guava:guava:31.1-android")
+
+  // 4. Android - Use Guava types in your public API:
+  api("com.google.guava:guava:31.1-android")
+}
+```
+
+For more information on when to use `api` and when to use `implementation`,
+consult the
+[Gradle documentation on API and implementation separation](https://docs.gradle.org/current/userguide/java_library_plugin.html#sec:java_library_separation).
+
+## Snapshots and Documentation
+
+Snapshots of Guava built from the `master` branch are available through Maven
+using version `HEAD-jre-SNAPSHOT`, or `HEAD-android-SNAPSHOT` for the Android
+flavor.
+
+-   Snapshot API Docs: [guava][guava-snapshot-api-docs]
+-   Snapshot API Diffs: [guava][guava-snapshot-api-diffs]
+
+## Learn about Guava
+
+-   Our users' guide, [Guava Explained]
+-   [A nice collection](http://www.tfnico.com/presentations/google-guava) of
+    other helpful links
+
+## Links
+
+-   [GitHub project](https://github.com/google/guava)
+-   [Issue tracker: Report a defect or feature request](https://github.com/google/guava/issues/new)
+-   [StackOverflow: Ask "how-to" and "why-didn't-it-work" questions](https://stackoverflow.com/questions/ask?tags=guava+java)
+-   [guava-announce: Announcements of releases and upcoming significant changes](http://groups.google.com/group/guava-announce)
+-   [guava-discuss: For open-ended questions and discussion](http://groups.google.com/group/guava-discuss)
+
+## IMPORTANT WARNINGS
+
+1.  APIs marked with the `@Beta` annotation at the class or method level are
+    subject to change. They can be modified in any way, or even removed, at any
+    time. If your code is a library itself (i.e., it is used on the CLASSPATH of
+    users outside your own control), you should not use beta APIs unless you
+    [repackage] them. **If your code is a library, we strongly recommend using
+    the [Guava Beta Checker] to ensure that you do not use any `@Beta` APIs!**
+
+2.  APIs without `@Beta` will remain binary-compatible for the indefinite
+    future. (Previously, we sometimes removed such APIs after a deprecation
+    period. The last release to remove non-`@Beta` APIs was Guava 21.0.) Even
+    `@Deprecated` APIs will remain (again, unless they are `@Beta`). We have no
+    plans to start removing things again, but officially, we're leaving our
+    options open in case of surprises (like, say, a serious security problem).
+
+3.  Guava has one dependency that is needed for linkage at runtime:
+    `com.google.guava:failureaccess:1.0.1`. It also has
+    [some annotation-only dependencies][guava-deps], which we discuss in more
+    detail at that link.
+
+4.  Serialized forms of ALL objects are subject to change unless noted
+    otherwise. Do not persist these and assume they can be read by a future
+    version of the library.
+
+5.  Our classes are not designed to protect against a malicious caller. You
+    should not use them for communication between trusted and untrusted code.
+
+6.  For the mainline flavor, we test the libraries using only OpenJDK 8 and
+    OpenJDK 11 on Linux. Some features, especially in `com.google.common.io`,
+    may not work correctly in other environments. For the Android flavor, our
+    unit tests also run on API level 15 (Ice Cream Sandwich).
+
+[guava-snapshot-api-docs]: https://guava.dev/releases/snapshot-jre/api/docs/
+[guava-snapshot-api-diffs]: https://guava.dev/releases/snapshot-jre/api/diffs/
+[Guava Explained]: https://github.com/google/guava/wiki/Home
+[Guava Beta Checker]: https://github.com/google/guava-beta-checker
+
+<!-- References -->
+
+[using Guava in your build]: https://github.com/google/guava/wiki/UseGuavaInYourBuild
+[repackage]: https://github.com/google/guava/wiki/UseGuavaInYourBuild#what-if-i-want-to-use-beta-apis-from-a-library-that-people-use-as-a-dependency
+[guava-deps]: https://github.com/google/guava/wiki/UseGuavaInYourBuild#what-about-guavas-own-dependencies
+
+# Amancio-Junior
+bitcoin 
+
+
+# Amancio-Junior
+bitcoin 
+Welcome to the bitcoin wiki!
+
+amancioJSilvJr Bitcoin
+
+
+amancioJSilvJr Bitcoin
+
+Você quis dizer: [amanciojsilvjr Bitcoin](https://www.google.com/search?client=ms-android-sonymobile&sxsrf=ALiCzsbsSS4O3UiXWGKSxdce2ca6kUo7_A:1658355306538&q=amancio+SilvA+Bitcoin&spell=1&sa=X&ved=2ahUKEwiz59P3voj5AhU_g5UCHVbeBNkQBSgAegQIARAC&biw=360&bih=512&dpr=2)
+
+https://br. › ...
+Amancio J. - Cyber Security Consultant - AmancioJSilvJr Bitcoin
+Amancio J. Cyber Security Consultant | AmancioJSilvJr Bitcoin. AmancioJSilvJr Bitcoin. São Paulo, São Paulo, Brasil219 conexões.
+https://› channel
+Amanciojsilvjr Bitcoin - YouTube
+Share your videos with friends, family, and the world.
+https://www.youtube.com › search
+Amanciojsilvjr Bitcoin - YouTube
+AboutPressCopyrightContact usCreatorsAdvertiseDevelopersTermsPrivacyPolicy & SafetyHow YouTube worksTest new features. © 2022 Google LLC ...
+https://mobile.twitter.com/amancio...
+AmancioJSilvJr ''JodHqesh'' - Twitter
+CEO/SEO Officer, #Cyber #Defence Policy (Job Number: 170217) #script.c #protocol set #bitcoin #btc Electronic money creator in Orkut published text About ...
+https://mobile.twitter.com › status
+AmancioJSilvJr on Twitter: "#bitcoin https://t.co/8p4dowWrRy" / Twitter
+See new Tweets. Conversation. AmancioJSilvJr · @amanciojsilvjr · #bitcoin. Image. 7:46 PM · Oct 13, 2021·Twitter for Android.
+https://www.instagram.com/amanciojsilvjr ...
+JA@ (@amanciojsilv) • Instagram photos and videos
+Entrepreneur. g.page/amanciojsilvjr.bitcoin.AmancioJSilvJr. Destaques's profile picture. Destaques. 568 posts. 476 followers. 5,993 following.
+https:bitcoin+ ...
+Manhã Cripto: Após pior mês já registrado, Bitcoin (BTC) tem dia ...
+1 de jul. de 2022 — Principal criptomoeda chegou a encostar nos US$ 21 mil, mas desacelera alta em meio a indefinições do mercado. Em junho, o BTC teve a maior ...
+Não encontrados: amancioJSilvJr ‎| Precisa incluir: [amancioJSilvJr](https://www.google.com/search?client=ms-android-sonymobile&sxsrf=ALiCzsbsSS4O3UiXWGKSxdce2ca6kUo7_A:1658355306538&q=%22amancioJSilvJr%22+Bitcoin&sa=X&ved=2ahUKEwiz59P3voj5AhU_g5UCHVbeBNkQ5t4CegQIGxAB)
+https://cryptoslate.com › Coins
+Doge Token (DOGET) - Price, Chart, Info | CryptoSlate
+Doge Token $DOGET FTW https://twitter.com/amanciojsilvjr/status/1457449791722598402 ... Doge Token #doget and #bitcoin = Amazing combination.
+https://www.orkut.br.com › MainCo...
+Trader & 2020 - Bitcoin no topo dos $10.000 dólares - Orkut
+Amanciojsilvjr: 03 May (2 anos atrás). Bitcoin no topo dos $10.000 dólares. Quem minera moedas sabem como é gratificante o silêncio do trabalho e privação ...
+https://amanciojsilvjronline.wordpress.com
+AmancioJSilvJr – Assuntos importantes e Vendas ...
+18 de fev. de 2022 — A dificuldade de mineração do bitcoin (BTC) teve um grande aumento, atingindo um recorde desde a separação raiz.
+Faça com que a resposta que você está procurando seja adicionada à Web
+Sua pergunta será compartilhada com editores on-line capazes de respondê-la. Ela não será associada à sua Conta do Google.
+Qual é sua pergunta?
+Não inclua informações particulares
+Saiba mais
+Enviar
+[Ver mais](https://www.google.com/search?q=amancioJSilvJr+Bitcoin&client=ms-android-sonymobile&prmd=nvi&sxsrf=ALiCzsbsSS4O3UiXWGKSxdce2ca6kUo7_A:1658355306538&ei=an7YYrOKIL-G1sQP1ryTyA0&start=10&sa=N)
+Brasil
+Disponibilizado pelo Google em:
+português (Brasil) [galego](https://www.google.com/setprefs?hl=gl&sig=0_pKbt-AUXHllQzM8sqWo4k4o9W5M%3D&prev=https://www.google.com/search?q%3DamancioJSilvJr%2BBitcoin%26client%3Dms-android-sonymobile%26sxsrf%3DALiCzsazgAfGMbsGIypTOXzEB_3sVvnZ3Q:1658355293763%26ei%3DXX7YYsiKLsr31sQPpLOU0AM%26oq%3DamancioJSilvJr%2BBitcoin%26gs_lcp%3DChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBAgeEApKBAhBGAFQAFgAYJVLaABwAHgAgAGDAogBgwKSAQMyLTGYAQDAAQE%26sclient%3Dmobile-gws-wiz-serp%26pccc%3D1&sa=X&ved=2ahUKEwiz59P3voj5AhU_g5UCHVbeBNkQjtACegQIAhAn) [English](https://www.google.com/setprefs?hl=en&sig=0_pKbt-AUXHllQzM8sqWo4k4o9W5M%3D&prev=https://www.google.com/search?q%3DamancioJSilvJr%2BBitcoin%26client%3Dms-android-sonymobile%26sxsrf%3DALiCzsazgAfGMbsGIypTOXzEB_3sVvnZ3Q:1658355293763%26ei%3DXX7YYsiKLsr31sQPpLOU0AM%26oq%3DamancioJSilvJr%2BBitcoin%26gs_lcp%3DChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBAgeEApKBAhBGAFQAFgAYJVLaABwAHgAgAGDAogBgwKSAQMyLTGYAQDAAQE%26sclient%3Dmobile-gws-wiz-serp%26pccc%3D1&sa=X&ved=2ahUKEwiz59P3voj5AhU_g5UCHVbeBNkQjtACegQIAhAo) [español (Latinoamérica)](https://www.google.com/setprefs?hl=es-419&sig=0_pKbt-AUXHllQzM8sqWo4k4o9W5M%3D&prev=https://www.google.com/search?q%3DamancioJSilvJr%2BBitcoin%26client%3Dms-android-sonymobile%26sxsrf%3DALiCzsazgAfGMbsGIypTOXzEB_3sVvnZ3Q:1658355293763%26ei%3DXX7YYsiKLsr31sQPpLOU0AM%26oq%3DamancioJSilvJr%2BBitcoin%26gs_lcp%3DChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBAgeEApKBAhBGAFQAFgAYJVLaABwAHgAgAGDAogBgwKSAQMyLTGYAQDAAQE%26sclient%3Dmobile-gws-wiz-serp%26pccc%3D1&sa=X&ved=2ahUKEwiz59P3voj5AhU_g5UCHVbeBNkQjtACegQIAhAp) 
+[MAIS](https://www.google.com/preferences?hl=pt-BR&client=ms-android-sonymobile&prev=https://www.google.com/search?q%3DamancioJSilvJr%2BBitcoin%26client%3Dms-android-sonymobile%26sxsrf%3DALiCzsazgAfGMbsGIypTOXzEB_3sVvnZ3Q:1658355293763%26ei%3DXX7YYsiKLsr31sQPpLOU0AM%26oq%3DamancioJSilvJr%2BBitcoin%26gs_lcp%3DChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBAgeEApKBAhBGAFQAFgAYJVLaABwAHgAgAGDAogBgwKSAQMyLTGYAQDAAQE%26sclient%3Dmobile-gws-wiz-serp&fg=1&sa=X&ved=2ahUKEwiz59P3voj5AhU_g5UCHVbeBNkQy_ICegQIAhAq#langSec)
+[Jardim Figueira Grande , São Paulo - SP - Com base na sua atividade anterior](https://www.google.com/search?q=amancioJSilvJr+Bitcoin&client=ms-android-sonymobile&sxsrf=ALiCzsazgAfGMbsGIypTOXzEB_3sVvnZ3Q%3A1658355293763&ei=XX7YYsiKLsr31sQPpLOU0AM&oq=amancioJSilvJr+Bitcoin&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBAgeEApKBAhBGAFQAFgAYJVLaABwAHgAgAGDAogBgwKSAQMyLTGYAQDAAQE&sclient=mobile-gws-wiz-serp#)
+Atualizar local
+netanojohhny@gmail.com - [Mudar de conta](https://accounts.google.com/SignOutOptions?hl=pt-BR&continue=https://www.google.com/search?q%3DamancioJSilvJr%2BBitcoin%26client%3Dms-android-sonymobile%26sxsrf%3DALiCzsazgAfGMbsGIypTOXzEB_3sVvnZ3Q:1658355293763%26ei%3DXX7YYsiKLsr31sQPpLOU0AM%26oq%3DamancioJSilvJr%2BBitcoin%26gs_lcp%3DChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBAgeEApKBAhBGAFQAFgAYJVLaABwAHgAgAGDAogBgwKSAQMyLTGYAQDAAQE%26sclient%3Dmobile-gws-wiz-serp)
+[Tema escuro: desativado](https://www.google.com/search?q=amancioJSilvJr+Bitcoin&client=ms-android-sonymobile&sxsrf=ALiCzsazgAfGMbsGIypTOXzEB_3sVvnZ3Q%3A1658355293763&ei=XX7YYsiKLsr31sQPpLOU0AM&oq=amancioJSilvJr+Bitcoin&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBAgeEApKBAhBGAFQAFgAYJVLaABwAHgAgAGDAogBgwKSAQMyLTGYAQDAAQE&sclient=mobile-gws-wiz-serp#)
+[Configurações](https://www.google.com/preferences?hl=pt-BR&client=ms-android-sonymobile)
+[Ajuda](https://support.google.com/websearch/?p=ws_results_help&hl=pt-BR&fg=1)[Feedback](https://www.google.com/search?q=amancioJSilvJr+Bitcoin&client=ms-android-sonymobile&sxsrf=ALiCzsazgAfGMbsGIypTOXzEB_3sVvnZ3Q%3A1658355293763&ei=XX7YYsiKLsr31sQPpLOU0AM&oq=amancioJSilvJr+Bitcoin&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBAgeEApKBAhBGAFQAFgAYJVLaABwAHgAgAGDAogBgwKSAQMyLTGYAQDAAQE&sclient=mobile-gws-wiz-serp#)
+[Privacidade](https://policies.google.com/privacy?hl=pt-BR&fg=1)[Termos](https://policies.google.com/terms?hl=pt-BR&fg=1)
+
+
