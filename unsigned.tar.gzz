@@ -351,3 +351,254 @@ changes." class="Link--secondary" href="/bitcoin/bitcoin/commit/d873ff96e51a3e7f
                <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;"> 
                 <svg aria-label="File" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file color-fg-muted"> 
                  <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path> 
+
+</svg> 
+               </div> 
+               <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="README.md" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/bitcoin/bitcoin/blob/master/README.md">README.md</a></span> 
+               </div> 
+               <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit markdown-title"> <a data-pjax="true" title="doc: Explain Bitcoin Core in README.md" class="Link--secondary" href="/bitcoin/bitcoin/commit/faeb5b59a098578b3e8c552d35b5ba02b12af14d">doc: Explain Bitcoin Core in README.md</a> </span> 
+               </div> 
+               <div role="gridcell" class="color-fg-muted text-right" style="width:100px;"> 
+                <time-ago datetime="2022-05-10T05:49:09Z" data-view-component="true" class="no-wrap" title="10 de mai. de 2022 02:49 BRT">
+                  5 months ago 
+                </time-ago> 
+               </div> 
+               <a style="opacity:0;" class="position-absolute top-0 right-0 bottom-0 left-0 d-block d-sm-none" href="/bitcoin/bitcoin/blob/master/README.md"> README.md </a> 
+              </div> 
+              <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item "> 
+               <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;"> 
+                <svg aria-label="File" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file color-fg-muted"> 
+                 <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path> 
+                </svg> 
+               </div> 
+               <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="REVIEWERS" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/bitcoin/bitcoin/blob/master/REVIEWERS">REVIEWERS</a></span> 
+               </div> 
+               <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit markdown-title"> <a data-pjax="true" title="doc: empty REVIEWERS file
+
+It seems that it's time for our experiment with this file to come to an
+end.
+
+See discussion here:
+https://github.com/bitcoin/bitcoin/pull/25560/files#r915491743." class="Link--secondary" href="/bitcoin/bitcoin/commit/4d06fc4bed12ca119208ee53369719f52b0f7098">doc: empty REVIEWERS file</a> </span> 
+               </div> 
+               <div role="gridcell" class="color-fg-muted text-right" style="width:100px;"> 
+                <time-ago datetime="2022-07-30T08:05:07Z" data-view-component="true" class="no-wrap" title="30 de jul. de 2022 05:05 BRT">
+                  3 months ago 
+                </time-ago> 
+               </div> 
+               <a style="opacity:0;" class="position-absolute top-0 right-0 bottom-0 left-0 d-block d-sm-none" href="/bitcoin/bitcoin/blob/master/REVIEWERS"> REVIEWERS </a> 
+              </div> 
+              <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item "> 
+               <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;"> 
+                <svg aria-label="File" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file color-fg-muted"> 
+                 <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path> 
+                </svg> 
+               </div> 
+               <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="SECURITY.md" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/bitcoin/bitcoin/blob/master/SECURITY.md">SECURITY.md</a></span> 
+               </div> 
+               <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit markdown-title"> <a data-pjax="true" title="doc: Add my key to SECURITY.md" class="Link--secondary" href="/bitcoin/bitcoin/commit/207abc147c347c124e866dc099fe4a2bd4cf5704">doc: Add my key to SECURITY.md</a> </span> 
+               </div> 
+               <div role="gridcell" class="color-fg-muted text-right" style="width:100px;"> 
+                <time-ago datetime="2022-08-23T20:57:46Z" data-view-component="true" class="no-wrap" title="23 de ago. de 2022 17:57 BRT">
+                  2 months ago 
+                </time-ago> 
+               </div> 
+               <a style="opacity:0;" class="position-absolute top-0 right-0 bottom-0 left-0 d-block d-sm-none" href="/bitcoin/bitcoin/blob/master/SECURITY.md"> SECURITY.md </a> 
+              </div> 
+              <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item "> 
+               <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;"> 
+                <svg aria-label="File" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file color-fg-muted"> 
+                 <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path> 
+                </svg> 
+               </div> 
+               <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="autogen.sh" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/bitcoin/bitcoin/blob/master/autogen.sh">autogen.sh</a></span> 
+               </div> 
+               <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit markdown-title"> <a data-pjax="true" title="scripted-diff: Bump copyright of files changed in 2019
+
+-BEGIN VERIFY SCRIPT-
+./contrib/devtools/copyright_header.py update ./
+-END VERIFY SCRIPT-" class="Link--secondary" href="/bitcoin/bitcoin/commit/aaaaad6ac95b402fe18d019d67897ced6b316ee0">scripted-diff: Bump copyright of files changed in 2019</a> </span> 
+               </div> 
+               <div role="gridcell" class="color-fg-muted text-right" style="width:100px;"> 
+                <time-ago datetime="2019-12-29T21:42:20Z" data-view-component="true" class="no-wrap" title="29 de dez. de 2019 18:42 BRT">
+                  3 years ago 
+                </time-ago> 
+               </div> 
+               <a style="opacity:0;" class="position-absolute top-0 right-0 bottom-0 left-0 d-block d-sm-none" href="/bitcoin/bitcoin/blob/master/autogen.sh"> autogen.sh </a> 
+              </div> 
+              <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item "> 
+               <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;"> 
+                <svg aria-label="File" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file color-fg-muted"> 
+                 <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path> 
+                </svg> 
+               </div> 
+               <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="configure.ac" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/bitcoin/bitcoin/blob/master/configure.ac">configure.ac</a></span> 
+               </div> 
+               <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit markdown-title"> <a data-pjax="true" title="Merge bitcoin/bitcoin#25985: Revert &quot;build: Use Homebrew's sqlite package if it is available&quot;
+
+d216d714aae36e6f1c95f82aef81a0be74dee2f3 Revert &quot;build: Use Homebrew's sqlite package if it is available&quot; (fanquake)
+
+Pull request description:
+
+  This reverts ee7b84e63cbeadd5e680d69ff0548275581e9241 from #20527.
+
+  That change was made without any rationale, maybe other than, a brew
+  installed version might be newer, and that's &quot;better&quot;. However when
+  building from source on macOS, it just results in drastically worse
+  performance, and issues / confusion like #25724.
+
+  The difference in performance can be observed using the example from https://github.com/bitcoin/bitcoin/issues/25724#issuecomment-1213554922,
+  but minified i.e:
+  ```bash
+  time src/bitcoin-cli createwallet speedy true
+  time src/bitcoin-cli importdescriptors '[
+    {&quot;desc&quot;:&quot;raw(00145846369f3d6ba366d6f5a903fb5cf4dca3763c0e)#k9wh6v62&quot;,&quot;timestamp&quot;:&quot;now&quot;},
+    {&quot;desc&quot;:&quot;raw(001420800aabf13f3a4c4ce3ce4c66cecf1d17f21a6e)#6m0hlfh4&quot;,&quot;timestamp&quot;:&quot;now&quot;},
+    {&quot;desc&quot;:&quot;raw(0014c6bf9715e06d73ebf9b3b02d5cc48d24d8bbabc1)#wyavh36r&quot;,&quot;timestamp&quot;:&quot;now&quot;},
+    {&quot;desc&quot;:&quot;raw(00141ba7807b3f46af113beaea5c698428ce7138cd8a)#jctdsups&quot;,&quot;timestamp&quot;:&quot;now&quot;},
+    {&quot;desc&quot;:&quot;raw(00140c1bd27f10fff01b36ddf3c1febaa1acff19b080)#9s6nc3pk&quot;,&quot;timestamp&quot;:&quot;now&quot;},
+    {&quot;desc&quot;:&quot;raw(00141226e31987e4bc2e63c0ee12908f675e40464b20)#9pp7qm39&quot;,&quot;timestamp&quot;:&quot;now&quot;},
+    {&quot;desc&quot;:&quot;raw(0014f73f149f7503960a5e849c6ee7a8a8c336f631cb)#qtkxv9fc&quot;,&quot;timestamp&quot;:&quot;now&quot;},
+    {&quot;desc&quot;:&quot;raw(0014c8ccb4d81ffc769fc5fdd8d7eed69b0e0cae5749)#hn39qayv&quot;,&quot;timestamp&quot;:&quot;now&quot;},
+    {&quot;desc&quot;:&quot;raw(001498565aead2d67a22a6021d55210f2a917fc22169)#6ar3vwsx&quot;,&quot;timestamp&quot;:&quot;now&quot;},
+    {&quot;desc&quot;:&quot;raw(001403013248ac0cd9eabe176cad162cda2a19f771e1)#4m47mukd&quot;,&quot;timestamp&quot;:&quot;now&quot;}
+  ]'
+  ```
+
+  Running master, when building from souce and using brew installed
+  sqlite, this takes ~3.4s. With this PR, the same operation takes ~0.3s.
+
+  Resolves the &quot;build from source&quot; portion of #25724. Building from
+  depends is still not ideal, however I have some other changes that might
+  help improve things in that case.
+
+  Related performance issue reports:
+  * https://github.com/bitcoindevkit/bdk/issues/749
+  * https://bitcoin.stackexchange.com/questions/113898/bitcoin-v23-is-10-times-slower-than-v22-on-macos-for-basic-regtest-tests
+  * https://github.com/bitcoin/bitcoin/issues/25724
+  * https://github.com/bitcoin/bitcoin/pull/25985#issuecomment-1245942400
+
+ACKs for top commit:
+  achow101:
+    ACK d216d714aae36e6f1c95f82aef81a0be74dee2f3
+  jarolrod:
+    ACK d216d714aae36e6f1c95f82aef81a0be74dee2f3
+  hebasto:
+    ACK d216d714aae36e6f1c95f82aef81a0be74dee2f3, I have reviewed the code and it looks OK, I agree it can be merged. No conflicts with our build [docs](https://github.com/bitcoin/bitcoin/blob/d216d714aae36e6f1c95f82aef81a0be74dee2f3/doc/build-osx.md#descriptor-wallet-support).
+
+Tree-SHA512: 1bb4b44385b11fa9fe66edd7449278f9e47a6cc679b7111f9adf17db94c34e29c9cceafc917454e134420db40b24b56da29226af6f43e6dbeff822b79b77ed60" class="Link--secondary" href="/bitcoin/bitcoin/commit/a52ff619a45c760f657413cbd40e1e2226068541">Merge</a> <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1360244473" data-permission-text="Title is private" data-url="https://github.com/bitcoin/bitcoin/issues/25985" data-hovercard-type="pull_request" data-hovercard-url="/bitcoin/bitcoin/pull/25985/hovercard" href="https://github.com/bitcoin/bitcoin/pull/25985">#25985</a><a data-pjax="true" title="Merge bitcoin/bitcoin#25985: Revert &quot;build: Use Homebrew's sqlite package if it is available&quot;
+
+d216d714aae36e6f1c95f82aef81a0be74dee2f3 Revert &quot;build: Use Homebrew's sqlite package if it is available&quot; (fanquake)
+
+Pull request description:
+
+  This reverts ee7b84e63cbeadd5e680d69ff0548275581e9241 from #20527.
+
+  That change was made without any rationale, maybe other than, a brew
+  installed version might be newer, and that's &quot;better&quot;. However when
+  building from source on macOS, it just results in drastically worse
+  performance, and issues / confusion like #25724.
+
+  The difference in performance can be observed using the example from https://github.com/bitcoin/bitcoin/issues/25724#issuecomment-1213554922,
+  but minified i.e:
+  ```bash
+  time src/bitcoin-cli createwallet speedy true
+  time src/bitcoin-cli importdescriptors '[
+    {&quot;desc&quot;:&quot;raw(00145846369f3d6ba366d6f5a903fb5cf4dca3763c0e)#k9wh6v62&quot;,&quot;timestamp&quot;:&quot;now&quot;},
+    {&quot;desc&quot;:&quot;raw(001420800aabf13f3a4c4ce3ce4c66cecf1d17f21a6e)#6m0hlfh4&quot;,&quot;timestamp&quot;:&quot;now&quot;},
+    {&quot;desc&quot;:&quot;raw(0014c6bf9715e06d73ebf9b3b02d5cc48d24d8bbabc1)#wyavh36r&quot;,&quot;timestamp&quot;:&quot;now&quot;},
+    {&quot;desc&quot;:&quot;raw(00141ba7807b3f46af113beaea5c698428ce7138cd8a)#jctdsups&quot;,&quot;timestamp&quot;:&quot;now&quot;},
+    {&quot;desc&quot;:&quot;raw(00140c1bd27f10fff01b36ddf3c1febaa1acff19b080)#9s6nc3pk&quot;,&quot;timestamp&quot;:&quot;now&quot;},
+    {&quot;desc&quot;:&quot;raw(00141226e31987e4bc2e63c0ee12908f675e40464b20)#9pp7qm39&quot;,&quot;timestamp&quot;:&quot;now&quot;},
+    {&quot;desc&quot;:&quot;raw(0014f73f149f7503960a5e849c6ee7a8a8c336f631cb)#qtkxv9fc&quot;,&quot;timestamp&quot;:&quot;now&quot;},
+    {&quot;desc&quot;:&quot;raw(0014c8ccb4d81ffc769fc5fdd8d7eed69b0e0cae5749)#hn39qayv&quot;,&quot;timestamp&quot;:&quot;now&quot;},
+    {&quot;desc&quot;:&quot;raw(001498565aead2d67a22a6021d55210f2a917fc22169)#6ar3vwsx&quot;,&quot;timestamp&quot;:&quot;now&quot;},
+    {&quot;desc&quot;:&quot;raw(001403013248ac0cd9eabe176cad162cda2a19f771e1)#4m47mukd&quot;,&quot;timestamp&quot;:&quot;now&quot;}
+  ]'
+  ```
+
+  Running master, when building from souce and using brew installed
+  sqlite, this takes ~3.4s. With this PR, the same operation takes ~0.3s.
+
+  Resolves the &quot;build from source&quot; portion of #25724. Building from
+  depends is still not ideal, however I have some other changes that might
+  help improve things in that case.
+
+  Related performance issue reports:
+  * https://github.com/bitcoindevkit/bdk/issues/749
+  * https://bitcoin.stackexchange.com/questions/113898/bitcoin-v23-is-10-times-slower-than-v22-on-macos-for-basic-regtest-tests
+  * https://github.com/bitcoin/bitcoin/issues/25724
+  * https://github.com/bitcoin/bitcoin/pull/25985#issuecomment-1245942400
+
+ACKs for top commit:
+  achow101:
+    ACK d216d714aae36e6f1c95f82aef81a0be74dee2f3
+  jarolrod:
+    ACK d216d714aae36e6f1c95f82aef81a0be74dee2f3
+  hebasto:
+    ACK d216d714aae36e6f1c95f82aef81a0be74dee2f3, I have reviewed the code and it looks OK, I agree it can be merged. No conflicts with our build [docs](https://github.com/bitcoin/bitcoin/blob/d216d714aae36e6f1c95f82aef81a0be74dee2f3/doc/build-osx.md#descriptor-wallet-support).
+
+Tree-SHA512: 1bb4b44385b11fa9fe66edd7449278f9e47a6cc679b7111f9adf17db94c34e29c9cceafc917454e134420db40b24b56da29226af6f43e6dbeff822b79b77ed60" class="Link--secondary" href="/bitcoin/bitcoin/commit/a52ff619a45c760f657413cbd40e1e2226068541">: Revert "build: Use Homebrew's sqlite package if it is a…</a> </span> 
+               </div> 
+               <div role="gridcell" class="color-fg-muted text-right" style="width:100px;"> 
+                <time-ago datetime="2022-10-17T14:29:41Z" data-view-component="true" class="no-wrap" title="17 de out. de 2022 11:29 BRT">
+                  2 days ago 
+                </time-ago> 
+               </div> 
+               <a style="opacity:0;" class="position-absolute top-0 right-0 bottom-0 left-0 d-block d-sm-none" href="/bitcoin/bitcoin/blob/master/configure.ac"> configure.ac </a> 
+              </div> 
+              <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item "> 
+               <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;"> 
+                <svg aria-label="File" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file color-fg-muted"> 
+                 <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path> 
+                </svg> 
+               </div> 
+               <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="libbitcoinconsensus.pc.in" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/bitcoin/bitcoin/blob/master/libbitcoinconsensus.pc.in">libbitcoinconsensus.pc.in</a></span> 
+               </div> 
+               <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit markdown-title"> <a data-pjax="true" title="build: remove libcrypto as internal dependency in libbitcoinconsensus.pc" class="Link--secondary" href="/bitcoin/bitcoin/commit/2d7066527a456f8e1f4f603fe104b0bd9d864559">build: remove libcrypto as internal dependency in libbitcoinconsensus.pc</a> </span> 
+               </div> 
+               <div role="gridcell" class="color-fg-muted text-right" style="width:100px;"> 
+                <time-ago datetime="2019-11-19T14:03:44Z" data-view-component="true" class="no-wrap" title="19 de nov. de 2019 11:03 BRT">
+                  3 years ago 
+                </time-ago> 
+               </div> 
+               <a style="opacity:0;" class="position-absolute top-0 right-0 bottom-0 left-0 d-block d-sm-none" href="/bitcoin/bitcoin/blob/master/libbitcoinconsensus.pc.in"> libbitcoinconsensus.pc.in </a> 
+              </div> 
+             </div> 
+             <div class="Details-content--shown Box-footer d-md-none p-0"> 
+              <button aria-expanded="false" type="button" data-view-component="true" class="js-details-target btn-link d-block width-full px-3 py-2"> View code </button> 
+             </div> 
+            </div> 
+           </div> 
+           <readme-toc data-catalyst=""> 
+            <div id="readme" class="Box md js-code-block-container js-code-nav-container js-tagsearch-file Box--responsive" data-tagsearch-path="README.md" data-tagsearch-lang="Markdown"> 
+             <div class="d-flex js-sticky js-position-sticky top-0 border-top-0 border-bottom p-2 flex-items-center flex-justify-between color-bg-default rounded-top-2" style="position: sticky; z-index: 30; top: 0px !important;" data-original-top="0px"> 
+              <div class="d-flex flex-items-center"> 
+               <details data-target="readme-toc.trigger" data-menu-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;trigger&quot;,&quot;repository_id&quot;:1181927,&quot;originating_url&quot;:&quot;https://github.com/bitcoin/bitcoin&quot;,&quot;user_id&quot;:null}}" data-menu-hydro-click-hmac="6efdafc4692df2788cc9474cb391c7072addd46122e74942558b7ab2f8d1fce1" class="dropdown details-reset details-overlay"> 
+                <summary class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup="menu" aria-label="Table of Contents" role="button"> 
+                 <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-list-unordered"> 
+                  <path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"></path> 
+                 </svg> </summary> 
+                <details-menu class="SelectMenu" role="menu" data-focus-trap="active"> 
+                 <span class="sentinel" tabindex="0" aria-hidden="true"></span> 
+                 <div class="SelectMenu-modal rounded-3 mt-1" style="max-height:340px;"> 
+                  <div class="SelectMenu-filter"> 
+                   <input class="SelectMenu-input form-control js-filterable-field" id="toc-filter-field" type="text" autocomplete="off" spellcheck="false" autofocus placeholder="Filter headings" aria-label="Filter headings"> 
+                  </div> 
+                  <div class="SelectMenu-list SelectMenu-list--borderless p-2" style="overscroll-behavior: contain;" data-filterable-for="toc-filter-field" data-filterable-type="substring"> 
+                   <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 text-emphasized" style="-webkit-box-orient: vertical; padding-left: 12px; background-color: var(--color-accent-emphasis);" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:1181927,&quot;originating_url&quot;:&quot;https://github.com/bitcoin/bitcoin&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="affef1e3ee81c31decbffd1b416f6282eec6c8f35f00e14562e9106038913625" href="#bitcoin-core-integrationstaging-tree" aria-current="page">Bitcoin Core integration/staging tree</a> 
+                   <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 24px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:1181927,&quot;originating_url&quot;:&quot;https://github.com/bitcoin/bitcoin&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="affef1e3ee81c31decbffd1b416f6282eec6c8f35f00e14562e9106038913625" href="#what-is-bitcoin-core">What is Bitcoin Core?</a> 
+                   <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 24px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:1181927,&quot;originating_url&quot;:&quot;https://github.com/bitcoin/bitcoin&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="affef1e3ee81c31decbffd1b416f6282eec6c8f35f00e14562e9106038913625" href="#license">License</a> 
+                   <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 24px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:1181927,&quot;originating_url&quot;:&quot;https://github.com/bitcoin/bitcoin&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="affef1e3ee81c31decbffd1b416f6282eec6c8f35f00e14562e9106038913625" href="#development-process">Development Process</a> 
