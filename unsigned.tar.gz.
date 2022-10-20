@@ -660,3 +660,20 @@ Tree-SHA512: 1bb4b44385b11fa9fe66edd7449278f9e47a6cc679b7111f9adf17db94c34e29c9c
                    <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 24px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:1181927,&quot;originating_url&quot;:&quot;https://github.com/bitcoin/bitcoin&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="affef1e3ee81c31decbffd1b416f6282eec6c8f35f00e14562e9106038913625" href="#what-is-bitcoin-core">What is Bitcoin Core?</a> 
                    <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 24px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:1181927,&quot;originating_url&quot;:&quot;https://github.com/bitcoin/bitcoin&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="affef1e3ee81c31decbffd1b416f6282eec6c8f35f00e14562e9106038913625" href="#license">License</a> 
                    <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 24px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:1181927,&quot;originating_url&quot;:&quot;https://github.com/bitcoin/bitcoin&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="affef1e3ee81c31decbffd1b416f6282eec6c8f35f00e14562e9106038913625" href="#development-process">Development Process</a> 
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0"> 
+   <div class="Popover-message Popover-message--bottom-left Popover-message--large Box color-shadow-large" style="width:360px;"></div> 
+  </div> 
+  <template id="snippet-clipboard-copy-button"> 
+   <div class="zeroclipboard-container position-absolute right-0 top-0"> 
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w"> 
+     <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon m-2"> 
+      <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path> 
+      <path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path> 
+     </svg> 
+     <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none m-2"> 
+      <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path> 
+     </svg> 
+    </clipboard-copy> 
+   </div> 
+  </template> 
+  <div aria-live="polite" class="sr-only"></div>
