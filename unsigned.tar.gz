@@ -1,3 +1,61 @@
+bitcoin/commit/d25699280af1ea45bebc884f63a10da7ea275ef9"><tt>d256992</tt></a> Verify PSBT inputs rather than check for fields being empty (Greg Sanders)
+
+Pull request description:
+
+  In a few keys spots, PSBT finality is checked by looking for non-empty witness data.
+
+  This complicates a couple things:
+  1) Empty data can be valid in certain cases
+  2) User may be passed bogus final data by a counterparty during PSBT work happening, and end up with incorrect signatures that they may not be able to check in other contexts if the UTXO doesn't exist yet in chain/mempool, timelocks, etc.
+
+  On the whole I think these heavier checks are worth it in case someone is actually assuming the signatures are correct if our API is saying so.
+
+ACKs for top commit:
+  achow101:
+    ACK <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/bitcoin/bitcoin/commit/e133264c5b1f72e94dcb9cebd85cdb523fcf8070/hovercard" href="https://github.com/bitcoin/bitcoin/commit/e133264c5b1f72e94dcb9cebd85cdb523fcf8070"><tt>e133264</tt></a>
+
+Tree-SHA512: 9de4fbb0be1257b081781f5df908fd55666e3acd5c4e36beb3b3f2f5a6aed69ff77068c44cde6127e159e773293fd9ced4c0bb47e693969f337e74dc8af030da</pre> 
+               <div class="d-flex flex-items-center"> 
+                <code class="border d-lg-none mt-2 px-1 rounded-2">2ac71d2</code> 
+               </div> 
+              </div> 
+              <div class="flex-shrink-0"> 
+               <h2 class="sr-only">Git stats</h2> 
+               <ul class="list-style-none d-flex"> 
+                <li class="ml-0 ml-md-3"> <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/bitcoin/bitcoin/commits/master" class="pl-3 pr-3 py-3 p-md-0 mt-n3 mb-n3 mr-n3 m-md-0 Link--primary no-underline no-wrap"> 
+                  <svg text="gray" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-history"> 
+                   <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"></path> 
+                  </svg> <span class="d-none d-sm-inline"> <strong>35,675</strong> <span aria-label="Commits on master" class="color-fg-muted d-none d-lg-inline"> commits </span> </span> </a> </li> 
+               </ul> 
+              </div> 
+             </div> 
+            </div> 
+            <h2 id="files" class="sr-only">Files</h2> 
+            <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/bitcoin/bitcoin/tree/2ac71d20b2ebbfea76ee7369fddffbd78bd2c010">Permalink</a> 
+            <div data-view-component="true" class="include-fragment-error flash flash-error flash-full py-2"> 
+             <svg aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert"> 
+              <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path> 
+             </svg> Failed to load latest commit information. 
+            </div> 
+            <div class="js-details-container Details" data-hpc=""> 
+             <div role="grid" aria-labelledby="files" class="Details-content--hidden-not-important js-navigation-container js-active-navigation-container d-md-block" data-pjax=""> 
+              <div class="sr-only" role="row"> 
+               <div role="columnheader">
+                 Type 
+               </div> 
+               <div role="columnheader">
+                 Name 
+               </div> 
+               <div role="columnheader" class="d-none d-md-block">
+                 Latest commit message 
+               </div> 
+               <div role="columnheader">
+                 Commit time 
+               </div> 
+              </div> 
+              <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item "> 
+               <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+
 unsigned.tar.gz
   32164cfa7c06ead63305485653f37d74c6ada82d28b79f58e66faf6e72e130bb  guix-build-859644b3c855/output/x86_64-w64-mingw32/bitcoin-859644b3c855-win64.zip
   ```
