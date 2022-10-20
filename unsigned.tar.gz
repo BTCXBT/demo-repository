@@ -1,0 +1,353 @@
+unsigned.tar.gz
+  32164cfa7c06ead63305485653f37d74c6ada82d28b79f58e66faf6e72e130bb  guix-build-859644b3c855/output/x86_64-w64-mingw32/bitcoin-859644b3c855-win64.zip
+  ```
+
+ACKs for top commit:
+  jarolrod:
+    re-ACK 859644b
+  hebasto:
+    ACK 859644b3c8550bb596fc8823747859e772dd493a, I've verified introduced changes in compiler flags, including the case with `DEBUG=1`.
+
+Tree-SHA512: 6e181ced7e474a80aa191663b08dc594179a0593b8e2d1e4b7c8683794fd7de8d37faedb9a36997645ce6a2a6151e1461678b4db95170fc9b1fcadd6e1bddbe5" class="Link--secondary" href="/bitcoin/bitcoin/commit/a5f95bafcd4244ead51db84d73885ac46c383c2c">Merge</a> <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1357213605" data-permission-text="Title is private" data-url="https://github.com/bitcoin/bitcoin/issues/25964" data-hovercard-type="pull_request" data-hovercard-url="/bitcoin/bitcoin/pull/25964/hovercard" href="https://github.com/bitcoin/bitcoin/pull/25964">#25964</a><a data-pjax="true" title="Merge bitcoin/bitcoin#25964: build: fix mingw miniupnpc cflags
+
+859644b3c8550bb596fc8823747859e772dd493a build: set D_WIN32_WINNT=0x0601 for mingw miniupnpc (fanquake)
+8e2d93ff0fee36baf7fe88662c83f5b4f40f0add build: fix cflags passing for mingw miniupnpc (fanquake)
+
+Pull request description:
+
+  Pulls in a patch I've upstreamed to miniupnpc so that we properly pass our cflags when building it for mingw. See https://github.com/miniupnp/miniupnp/pull/619. Also set `D_WIN32_WINNT` to `0x0601` to match libevent, configure etc. Previously it was being set to `0X501`.
+
+  Guix Build (x86_64 / arm64):
+  ```bash
+  39a66c473a45b83ca85500b32ccf8f30d4ae80f965ca064566ee9fd84a51964b  guix-build-859644b3c855/output/aarch64-linux-gnu/SHA256SUMS.part
+  7b0515e422f350cb23f4f0b2f87eaa1b30d1c80389da6f1cbe700794902c88e9  guix-build-859644b3c855/output/aarch64-linux-gnu/bitcoin-859644b3c855-aarch64-linux-gnu-debug.tar.gz
+  192253fb387a2216b6d63d47a18e34bfa284874488d7ebc6ba656ca76a905519  guix-build-859644b3c855/output/aarch64-linux-gnu
+description:
+
+  In a few keys spots, PSBT finality is checked by looking for non-empty witness data.
+
+  This complicates a couple things:
+  1) Empty data can be valid in certain cases
+  2) User may be passed bogus final data by a counterparty during PSBT work happening, and end up with incorrect signatures that they may not be able to check in other contexts if the UTXO doesn't exist yet in chain/mempool, timelocks, etc.
+
+  On the whole I think these heavier checks are worth it in case someone is actually assuming the signatures are correct if our API is saying so.
+
+ACKs for top commit:
+  achow101:
+    ACK e133264c5b1f72e94dcb9cebd85cdb523fcf8070
+
+Tree-SHA512: 9de4fbb0be1257b081781f5df908fd55666e3acd5c4e36beb3b3f2f5a6aed69ff77068c44cde6127e159e773293fd9ced4c0bb47e693969f337e74dc8af030da" class="Link--secondary" href="/bitcoin/bitcoin/commit/2ac71d20b2ebbfea76ee7369fddffbd78bd2c010">: Verify PSBT inputs rather than check for fields being e…</a> </span> 
+               </div> 
+               <div role="gridcell" class="color-fg-muted text-right" style="width:100px;"> 
+                <time-ago datetime="2022-10-20T00:13:14Z" data-view-component="true" class="no-wrap" title="19 de out. de 2022 21:13 BRT">
+                  42 minutes ago 
+                </time-ago> 
+               </div> 
+               <a style="opacity:0;" class="position-absolute top-0 right-0 bottom-0 left-0 d-block d-sm-none" href="/bitcoin/bitcoin/tree/master/src"> src </a> 
+              </div> 
+              <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item "> 
+               <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;"> 
+                <svg aria-label="Directory" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file-directory-fill hx_color-icon-directory"> 
+                 <path d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75z"></path> 
+                </svg> 
+               </div> 
+               <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="test" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/bitcoin/bitcoin/tree/master/test">test</a></span> 
+               </div> 
+               <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit markdown-title"> <a data-pjax="true" title="Merge bitcoin/bitcoin#25595: Verify PSBT inputs rather than check for fields being empty
+
+e133264c5b1f72e94dcb9cebd85cdb523fcf8070 Add test for PSBT input verification (Greg Sanders)
+d25699280af1ea45bebc884f63a10da7ea275ef9 Verify PSBT inputs rather than check for fields being empty (Greg Sanders)
+
+Pull request description:
+
+  In a few keys spots, PSBT finality is checked by looking for non-empty witness data.
+
+  This complicates a couple things:
+  1) Empty data can be valid in certain cases
+  2) User may be passed bogus final data by a counterparty during PSBT work happening, and end up with incorrect signatures that they may not be able to check in other contexts if the UTXO doesn't exist yet in chain/mempool, timelocks, etc.
+
+  On the whole I think these heavier checks are worth it in case someone is actually assuming the signatures are correct if our API is saying so.
+ACKs for top commit:
+  achow101:
+    ACK e133264c5b1f72e94dcb9cebd85cdb523fcf8070
+
+Tree-SHA512: 9de4fbb0be1257b081781f5df908fd55666e3acd5c4e36beb3b3f2f5a6aed69ff77068c44cde6127e159e773293fd9ced4c0bb47e693969f337e74dc8af030da" class="Link--secondary" href="/bitcoin/bitcoin/commit/2ac71d20b2ebbfea76ee7369fddffbd78bd2c010">Merge</a> <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1302190679" data-permission-text="Title is private" data-url="https://github.com/bitcoin/bitcoin/issues/25595" data-hovercard-type="pull_request" data-hovercard-url="/bitcoin/bitcoin/pull/25595/hovercard" href="https://github.com/bitcoin/bitcoin/pull/25595">#25595</a><a data-pjax="true" title="Merge bitcoin/bitcoin#25595: Verify PSBT inputs rather than check for fields being empty
+
+e133264c5b1f72e94dcb9cebd85cdb523fcf8070 Add test for PSBT input verification (Greg Sanders)
+d25699280af1ea45bebc884f63a10da7ea275ef9 Verify PSBT inputs rather than check for fields being empty (Greg Sanders)
+
+Pull request description:
+
+  In a few keys spots, PSBT finality is checked by looking for non-empty witness data.
+
+  This complicates a couple things:
+  1) Empty data can be valid in certain cases
+  2) User may be passed bogus final data by a counterparty during PSBT work happening, and end up with incorrect signatures that they may not be able to check in other contexts if the UTXO doesn't exist yet in chain/mempool, timelocks, etc.
+
+  On the whole I think these heavier checks are worth it in case someone is actually assuming the signatures are correct if our API is saying so.
+
+ACKs for top commit:
+  achow101:
+    ACK e133264c5b1f72e94dcb9cebd85cdb523fcf8070
+
+Tree-SHA512: 9de4fbb0be1257b081781f5df908fd55666e3acd5c4e36beb3b3f2f5a6aed69ff77068c44cde6127e159e773293fd9ced4c0bb47e693969f337e74dc8af030da" class="Link--secondary" href="/bitcoin/bitcoin/commit/2ac71d20b2ebbfea76ee7369fddffbd78bd2c010">: Verify PSBT inputs rather than check for fields being e…</a> </span> 
+               </div> 
+               <div role="gridcell" class="color-fg-muted text-right" style="width:100px;"> 
+                <time-ago datetime="2022-10-20T00:13:14Z" data-view-component="true" class="no-wrap" title="19 de out. de 2022 21:13 BRT">
+                  42 minutes ago 
+                </time-ago> 
+               </div> 
+               <a style="opacity:0;" class="position-absolute top-0 right-0 bottom-0 left-0 d-block d-sm-none" href="/bitcoin/bitcoin/tree/master/test"> test </a> 
+              </div> 
+              <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item "> 
+               <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;"> 
+                <svg aria-label="File" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file color-fg-muted"> 
+                 <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path> 
+                </svg> 
+               </div> 
+               <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title=".cirrus.yml" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/bitcoin/bitcoin/blob/master/.cirrus.yml">.cirrus.yml</a></span> 
+               </div> 
+               <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit markdown-title"> <a data-pjax="true" title="Merge bitcoin/bitcoin#26297: ci: Use all available CPUs for functional tests in &quot;Win64 native&quot; task
+
+6fbd173d8a4519967d75d2707b2285d62faa4424 ci: Use all available CPUs for functional tests in &quot;Win64 native&quot; task (Hennadii Stepanov)
+
+Pull request description:
+
+  On the [master](https://cirrus-ci.com/task/5422842484359168) branch:
+  ![Screenshot from 2022-10-12 09-45-58](https://user-images.githubusercontent.com/32963518/195296883-3852ea09-7345-4166-b855-7704dcd87202.png)
+
+  This [PR](https://cirrus-ci.com/task/6392972617973760) branch:
+  ![Screenshot from 2022-10-12 11-11-15](https://user-images.githubusercontent.com/32963518/195315902-f667874a-8aeb-4f2f-bdc3-5ba432ae9353.png)
+
+  Also consider &quot;CPU Usage&quot; charts provided by CI.
+
+  Overlooked in cda62657e95a90a5fd61ba43e2acbd407e3a4135 (bitcoin/bitcoin#25929).
+
+ACKs for top commit:
+  hebasto:
+    Indeed. Reverted back to 6fbd173d8a4519967d75d2707b2285d62faa4424 ([pr26297.01](https://github.com/hebasto/bitcoin/commits/pr26297.01)), which was already [ACKed](https://github.com/bitcoin/bitcoin/pull/26297#pullrequestreview-1138724890) by @aureleoules.
+  aureleoules:
+    ACK 6fbd173d8a4519967d75d2707b2285d62faa4424
+  jarolrod:
+    ACK 6fbd173d8a4519967d75d2707b2285d62faa4424
+  shaavan:
+    ACK 6fbd173d8a4519967d75d2707b2285d62faa4424
+
+Tree-SHA512: ddd4b41af95bd735f881a3b2c64ee308de2725381f770e313e66555f929d88c8848c98cc5fcd15dfa6845b5dd84ca6c8764ef5d01602b0a62041820856af2b98" class="Link--secondary" href="/bitcoin/bitcoin/commit/3b85e17b496d9774087366df0bf0042bf82a2993">Merge</a> <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1405830206" data-permission-text="Title is private" data-url="https://github.com/bitcoin/bitcoin/issues/26297" data-hovercard-type="pull_request" data-hovercard-url="/bitcoin/bitcoin/pull/26297/hovercard" href="https://github.com/bitcoin/bitcoin/pull/26297">#26297</a><a data-pjax="true" title="Merge bitcoin/bitcoin#26297: ci: Use all available CPUs for functional tests in &quot;Win64 native&quot; task
+
+6fbd173d8a4519967d75d2707b2285d62faa4424 ci: Use all available CPUs for functional tests in &quot;Win64 native&quot; task (Hennadii Stepanov)
+
+Pull request description:
+
+  On the [master](https://cirrus-ci.com/task/5422842484359168) branch:
+  ![Screenshot from 2022-10-12 09-45-58](https://user-images.githubusercontent.com/32963518/195296883-3852ea09-7345-4166-b855-7704dcd87202.png)
+
+  This [PR](https://cirrus-ci.com/task/6392972617973760) branch:
+  ![Screenshot from 2022-10-12 11-11-15](https://user-images.githubusercontent.com/32963518/195315902-f667874a-8aeb-4f2f-bdc3-5ba432ae9353.png)
+
+  Also consider &quot;CPU Usage&quot; charts provided by CI.
+
+  Overlooked in cda62657e95a90a5fd61ba43e2acbd407e3a4135 (bitcoin/bitcoin#25929).
+
+ACKs for top commit:
+  hebasto:
+    Indeed. Reverted back to 6fbd173d8a4519967d75d2707b2285d62faa4424 ([pr26297.01](https://github.com/hebasto/bitcoin/commits/pr26297.01)), which was already [ACKed](https://github.com/bitcoin/bitcoin/pull/26297#pullrequestreview-1138724890) by @aureleoules.
+  aureleoules:
+    ACK 6fbd173d8a4519967d75d2707b2285d62faa4424
+  jarolrod:
+    ACK 6fbd173d8a4519967d75d2707b2285d62faa4424
+  shaavan:
+    ACK 6fbd173d8a4519967d75d2707b2285d62faa4424
+
+Tree-SHA512: ddd4b41af95bd735f881a3b2c64ee308de2725381f770e313e66555f929d88c8848c98cc5fcd15dfa6845b5dd84ca6c8764ef5d01602b0a62041820856af2b98" class="Link--secondary" href="/bitcoin/bitcoin/commit/3b85e17b496d9774087366df0bf0042bf82a2993">: ci: Use all available CPUs for functional tests in "Win…</a> </span> 
+               </div> 
+               <div role="gridcell" class="color-fg-muted text-right" style="width:100px;"> 
+                <time-ago datetime="2022-10-14T03:37:44Z" data-view-component="true" class="no-wrap" title="14 de out. de 2022 00:37 BRT">
+                  6 days ago 
+                </time-ago> 
+               </div> 
+               <a style="opacity:0;" class="position-absolute top-0 right-0 bottom-0 left-0 d-block d-sm-none" href="/bitcoin/bitcoin/blob/master/.cirrus.yml"> .cirrus.yml </a> 
+              </div> 
+              <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item "> 
+               <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;"> 
+                <svg aria-label="File" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file color-fg-muted"> 
+                 <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path> 
+                </svg> 
+               </div> 
+               <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title=".editorconfig" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/bitcoin/bitcoin/blob/master/.editorconfig">.editorconfig</a></span> 
+               </div> 
+               <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit markdown-title"> <a data-pjax="true" title="ci: Drop AppVeyor CI integration" class="Link--secondary" href="/bitcoin/bitcoin/commit/97292b19140db32c6d85d63b70382e7bf60a55c4">ci: Drop AppVeyor CI integration</a> </span> 
+               </div> 
+               <div role="gridcell" class="color-fg-muted text-right" style="width:100px;"> 
+                <time-ago datetime="2021-09-07T03:12:53Z" data-view-component="true" class="no-wrap" title="7 de set. de 2021 00:12 BRT">
+                  14 months ago 
+                </time-ago> 
+               </div> 
+               <a style="opacity:0;" class="position-absolute top-0 right-0 bottom-0 left-0 d-block d-sm-none" href="/bitcoin/bitcoin/blob/master/.editorconfig"> .editorconfig </a> 
+              </div> 
+              <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item "> 
+               <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;"> 
+                <svg aria-label="File" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file color-fg-muted"> 
+                 <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path> 
+                </svg> 
+               </div> 
+               <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title=".gitattributes" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/bitcoin/bitcoin/blob/master/.gitattributes">.gitattributes</a></span> 
+               </div> 
+               <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit markdown-title"> <a data-pjax="true" title="Separate protocol versioning from clientversion" class="Link--secondary" href="/bitcoin/bitcoin/commit/71697f97d3f9512f0af934070690c14f1c0d95ea">Separate protocol versioning from clientversion</a> </span> 
+               </div> 
+               <div role="gridcell" class="color-fg-muted text-right" style="width:100px;"> 
+                <time-ago datetime="2014-10-29T04:24:40Z" data-view-component="true" class="no-wrap" title="29 de out. de 2014 01:24 BRT">
+                  8 years ago 
+                </time-ago> 
+               </div> 
+               <a style="opacity:0;" class="position-absolute top-0 right-0 bottom-0 left-0 d-block d-sm-none" href="/bitcoin/bitcoin/blob/master/.gitattributes"> .gitattributes </a> 
+              </div> 
+              <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item "> 
+               <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;"> 
+                <svg aria-label="File" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file color-fg-muted"> 
+                 <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path> 
+                </svg> 
+               </div> 
+               <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title=".gitignore" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/bitcoin/bitcoin/blob/master/.gitignore">.gitignore</a></span> 
+               </div> 
+               <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit markdown-title"> <a data-pjax="true" title="refactor: cleanups post unsubtree'ing univalue
+
+Mostly changes to remove src/univalue exceptions from the various linters,
+and the required code changes to make them happy. As well as minor doc
+changes." class="Link--secondary" href="/bitcoin/bitcoin/commit/d873ff96e51a3e7f2fdc3fdd1baee2bbe7583e06">refactor: cleanups post unsubtree'ing univalue</a> </span> 
+               </div> 
+               <div role="gridcell" class="color-fg-muted text-right" style="width:100px;"> 
+                <time-ago datetime="2022-06-15T11:56:44Z" data-view-component="true" class="no-wrap" title="15 de jun. de 2022 08:56 BRT">
+                  4 months ago 
+                </time-ago> 
+               </div> 
+               <a style="opacity:0;" class="position-absolute top-0 right-0 bottom-0 left-0 d-block d-sm-none" href="/bitcoin/bitcoin/blob/master/.gitignore"> .gitignore </a> 
+              </div> 
+              <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item "> 
+               <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;"> 
+                <svg aria-label="File" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file color-fg-muted"> 
+                 <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path> 
+</svg> 
+               </div> 
+               <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title=".python-version" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/bitcoin/bitcoin/blob/master/.python-version">.python-version</a></span> 
+               </div> 
+               <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit markdown-title"> <a data-pjax="true" title="Bump minimum python version to 3.6" class="Link--secondary" href="/bitcoin/bitcoin/commit/8ae9d314e9af7bcce1e8bc52f0317b9d565109bf">Bump minimum python version to 3.6</a> </span> 
+               </div> 
+               <div role="gridcell" class="color-fg-muted text-right" style="width:100px;"> 
+                <time-ago datetime="2020-11-09T07:53:47Z" data-view-component="true" class="no-wrap" title="9 de nov. de 2020 04:53 BRT">
+                  2 years ago 
+                </time-ago> 
+               </div> 
+               <a style="opacity:0;" class="position-absolute top-0 right-0 bottom-0 left-0 d-block d-sm-none" href="/bitcoin/bitcoin/blob/master/.python-version"> .python-version </a> 
+              </div> 
+              <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item "> 
+               <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;"> 
+                <svg aria-label="File" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file color-fg-muted"> 
+                 <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path> 
+                </svg> 
+               </div> 
+               <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title=".style.yapf" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/bitcoin/bitcoin/blob/master/.style.yapf">.style.yapf</a></span> 
+               </div> 
+               <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit markdown-title"> <a data-pjax="true" title="test: .style.yapf: Set column_limit=160" class="Link--secondary" href="/bitcoin/bitcoin/commit/1111f0718acea42954600a4dbd553ac40aae797f">test: .style.yapf: Set column_limit=160</a> </span> 
+               </div> 
+               <div role="gridcell" class="color-fg-muted text-right" style="width:100px;"> 
+                <time-ago datetime="2019-03-04T23:28:13Z" data-view-component="true" class="no-wrap" title="4 de mar. de 2019 20:28 BRT">
+                  4 years ago 
+                </time-ago> 
+               </div> 
+               <a style="opacity:0;" class="position-absolute top-0 right-0 bottom-0 left-0 d-block d-sm-none" href="/bitcoin/bitcoin/blob/master/.style.yapf"> .style.yapf </a> 
+              </div> 
+              <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item "> 
+               <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;"> 
+                <svg aria-label="File" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file color-fg-muted"> 
+                 <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path> 
+                </svg> 
+               </div> 
+               <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="CONTRIBUTING.md" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/bitcoin/bitcoin/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a></span> 
+               </div> 
+               <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit markdown-title"> <a data-pjax="true" title="doc: Explain squashing with merge commits" class="Link--secondary" href="/bitcoin/bitcoin/commit/fa2d226ac950d8b4f7e430732f13ad408c504745">doc: Explain squashing with merge commits</a> </span> 
+               </div> 
+               <div role="gridcell" class="color-fg-muted text-right" style="width:100px;"> 
+                <time-ago datetime="2022-05-24T06:17:41Z" data-view-component="true" class="no-wrap" title="24 de mai. de 2022 03:17 BRT">
+                  5 months ago 
+                </time-ago> 
+               </div> 
+               <a style="opacity:0;" class="position-absolute top-0 right-0 bottom-0 left-0 d-block d-sm-none" href="/bitcoin/bitcoin/blob/master/CONTRIBUTING.md"> CONTRIBUTING.md </a> 
+              </div> 
+              <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item "> 
+               <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;"> 
+                <svg aria-label="File" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file color-fg-muted"> 
+                 <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path> 
+                </svg> 
+               </div> 
+               <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="COPYING" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" itemprop="license" href="/bitcoin/bitcoin/blob/master/COPYING">COPYING</a></span> 
+               </div> 
+               <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit markdown-title"> <a data-pjax="true" title="doc: Update license year range to 2022" class="Link--secondary" href="/bitcoin/bitcoin/commit/a1b532d1a5f02f1ef4c5af52e04072eab9636bb1">doc: Update license year range to 2022</a> </span> 
+               </div> 
+               <div role="gridcell" class="color-fg-muted text-right" style="width:100px;"> 
+                <time-ago datetime="2022-01-02T20:48:41Z" data-view-component="true" class="no-wrap" title="2 de jan. de 2022 17:48 BRT">
+                  10 months ago 
+                </time-ago> 
+               </div> 
+               <a style="opacity:0;" class="position-absolute top-0 right-0 bottom-0 left-0 d-block d-sm-none" href="/bitcoin/bitcoin/blob/master/COPYING"> COPYING </a> 
+              </div> 
+              <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item "> 
+               <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;"> 
+                <svg aria-label="File" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file color-fg-muted"> 
+                 <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path> 
+                </svg> 
+               </div> 
+               <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="INSTALL.md" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/bitcoin/bitcoin/blob/master/INSTALL.md">INSTALL.md</a></span> 
+               </div> 
+               <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit markdown-title"> <a data-pjax="true" title="doc: Added hyperlink for doc/build" class="Link--secondary" href="/bitcoin/bitcoin/commit/67c85bdb2f0d200b8e1669a6839ffd6325c663a6">doc: Added hyperlink for doc/build</a> </span> 
+               </div> 
+               <div role="gridcell" class="color-fg-muted text-right" style="width:100px;"> 
+                <time-ago datetime="2021-09-09T14:23:12Z" data-view-component="true" class="no-wrap" title="9 de set. de 2021 11:23 BRT">
+                  14 months ago 
+                </time-ago> 
+               </div> 
+               <a style="opacity:0;" class="position-absolute top-0 right-0 bottom-0 left-0 d-block d-sm-none" href="/bitcoin/bitcoin/blob/master/INSTALL.md"> INSTALL.md </a> 
+              </div> 
+              <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item "> 
+               <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;"> 
+                <svg aria-label="File" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file color-fg-muted"> 
+                 <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path> 
+                </svg> 
+               </div> 
+               <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open Link--primary" title="Makefile.am" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/bitcoin/bitcoin/blob/master/Makefile.am">Makefile.am</a></span> 
+               </div> 
+               <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3"> 
+                <span class="css-truncate css-truncate-target d-block width-fit markdown-title"> <a data-pjax="true" title="build: package test_bitcoin in Windows installer" class="Link--secondary" href="/bitcoin/bitcoin/commit/d755ffc3277c11b5c4a38c52e900b561d1636d0b">build: package test_bitcoin in Windows installer</a> </span> 
+               </div> 
+               <div role="gridcell" class="color-fg-muted text-right" style="width:100px;"> 
+                <time-ago datetime="2022-08-09T08:13:23Z" data-view-component="true" class="no-wrap" title="9 de ago. de 2022 05:13 BRT">
+                  2 months ago 
+                </time-ago> 
+               </div> 
+               <a style="opacity:0;" class="position-absolute top-0 right-0 bottom-0 left-0 d-block d-sm-none" href="/bitcoin/bitcoin/blob/master/Makefile.am"> Makefile.am </a> 
+              </div> 
+              <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item "> 
+               <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;"> 
+                <svg aria-label="File" aria-hidden="true" height="16" viewbox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file color-fg-muted"> 
+                 <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path> 
