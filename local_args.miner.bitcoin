@@ -1,0 +1,909 @@
+<html lang="en" class="js">
+ <head> 
+  <meta charset="utf-8"> 
+  <meta name="author" content="Azecoins"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+  <meta name="description" content="Best Free Bitcoins Mining Website, Choose Your Free or Other Mining Plans And Start Earning FaucetPay Balance! Minimum instant withdrawal on Faucetpay is $0.001"> 
+  <link rel="apple-touch-icon" sizes="76x76" href="https://gringofaucet.com/BSassets/images/favicon.png"> 
+  <link rel="icon" type="image/png" href="https://azecoins.com/BSassets/images/favicon.png"> 
+  <title>Dashboard | Azecoins</title> 
+  <link rel="stylesheet" href="https://gringofaucet.com/assets/main/css/vendor.bundle.css"> 
+  <link rel="stylesheet" href="https://gringofaucet.com/assets/main/css/style.css"> 
+  <link href="https://gringofaucet.com/BSassets/css/custom.css" rel="stylesheet"> 
+  <style>.swal2-popup.swal2-toast{flex-direction:row;align-items:center;width:auto;padding:.625em;overflow-y:hidden;background:#fff;box-shadow:0 0 .625em #d9d9d9}.swal2-popup.swal2-toast .swal2-header{flex-direction:row;padding:0}.swal2-popup.swal2-toast .swal2-title{flex-grow:1;justify-content:flex-start;margin:0 .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:static;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;padding:0;font-size:1em}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0}.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:1.8em;font-weight:700}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{font-size:.25em}}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{flex-basis:auto!important;width:auto;height:auto;margin:0 .3125em;padding:0}.swal2-popup.swal2-toast .swal2-styled{margin:.125em .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(100,150,200,.5)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:1.6em;height:3em;transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.8em;left:-.5em;transform:rotate(-45deg);transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;transform-origin:0 1.5em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:swal2-toast-animate-success-line-tip .75s;animation:swal2-toast-animate-success-line-tip .75s}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:swal2-toast-animate-success-line-long .75s;animation:swal2-toast-animate-success-line-long .75s}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:swal2-toast-show .5s;animation:swal2-toast-show .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:swal2-toast-hide .1s forwards;animation:swal2-toast-hide .1s forwards}.swal2-container{display:flex;position:fixed;z-index:1060;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:.625em;overflow-x:hidden;transition:background-color .1s;-webkit-overflow-scrolling:touch}.swal2-container.swal2-backdrop-show,.swal2-container.swal2-noanimation{background:rgba(0,0,0,.4)}.swal2-container.swal2-backdrop-hide{background:0 0!important}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-bottom-end>:first-child,.swal2-container.swal2-bottom-left>:first-child,.swal2-container.swal2-bottom-right>:first-child,.swal2-container.swal2-bottom-start>:first-child,.swal2-container.swal2-bottom>:first-child{margin-top:auto}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-no-transition{transition:none!important}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-popup{display:none;position:relative;box-sizing:border-box;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border:none;border-radius:5px;background:#fff;font-family:inherit;font-size:1rem}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-header{display:flex;flex-direction:column;align-items:center;padding:0 1.8em}.swal2-title{position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-actions{display:flex;z-index:1;box-sizing:border-box;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;margin:1.25em auto 0;padding:0 1.6em}.swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-loader{display:none;align-items:center;justify-content:center;width:2.2em;height:2.2em;margin:0 1.875em;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border-width:.25em;border-style:solid;border-radius:100%;border-color:#2778c4 transparent #2778c4 transparent}.swal2-styled{margin:.3125em;padding:.625em 1.1em;box-shadow:none;font-weight:500}.swal2-styled:not([disabled]){cursor:pointer}.swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#2778c4;color:#fff;font-size:1.0625em}.swal2-styled.swal2-deny{border:0;border-radius:.25em;background:initial;background-color:#d14529;color:#fff;font-size:1.0625em}.swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#757575;color:#fff;font-size:1.0625em}.swal2-styled:focus{outline:0;box-shadow:0 0 0 3px rgba(100,150,200,.5)}.swal2-styled::-moz-focus-inner{border:0}.swal2-footer{justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-timer-progress-bar-container{position:absolute;right:0;bottom:0;left:0;height:.25em;overflow:hidden;border-bottom-right-radius:5px;border-bottom-left-radius:5px}.swal2-timer-progress-bar{width:100%;height:.25em;background:rgba(0,0,0,.2)}.swal2-image{max-width:100%;margin:1.25em auto}.swal2-close{position:absolute;z-index:2;top:0;right:0;align-items:center;justify-content:center;width:1.2em;height:1.2em;padding:0;overflow:hidden;transition:color .1s ease-out;border:none;border-radius:5px;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer}.swal2-close:hover{transform:none;background:0 0;color:#f27474}.swal2-close:focus{outline:0;box-shadow:inset 0 0 0 3px rgba(100,150,200,.5)}.swal2-close::-moz-focus-inner{border:0}.swal2-content{z-index:1;justify-content:center;margin:0;padding:0 1.6em;color:#545454;font-size:1.125em;font-weight:400;line-height:normal;text-align:center;word-wrap:break-word}.swal2-checkbox,.swal2-file,.swal2-input,.swal2-radio,.swal2-select,.swal2-textarea{margin:1em auto}.swal2-file,.swal2-input,.swal2-textarea{box-sizing:border-box;width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;background:inherit;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);color:inherit;font-size:1.125em}.swal2-file.swal2-inputerror,.swal2-input.swal2-inputerror,.swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-file:focus,.swal2-input:focus,.swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 0 3px rgba(100,150,200,.5)}.swal2-file::-moz-placeholder,.swal2-input::-moz-placeholder,.swal2-textarea::-moz-placeholder{color:#ccc}.swal2-file:-ms-input-placeholder,.swal2-input:-ms-input-placeholder,.swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-file::placeholder,.swal2-input::placeholder,.swal2-textarea::placeholder{color:#ccc}.swal2-range{margin:1em auto;background:#fff}.swal2-range input{width:80%}.swal2-range output{width:20%;color:inherit;font-weight:600;text-align:center}.swal2-range input,.swal2-range output{height:2.625em;padding:0;font-size:1.125em;line-height:2.625em}.swal2-input{height:2.625em;padding:0 .75em}.swal2-input[type=number]{max-width:10em}.swal2-file{background:inherit;font-size:1.125em}.swal2-textarea{height:6.75em;padding:.75em}.swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;background:inherit;color:inherit;font-size:1.125em}.swal2-checkbox,.swal2-radio{align-items:center;justify-content:center;background:#fff;color:inherit}.swal2-checkbox label,.swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-checkbox input,.swal2-radio input{margin:0 .4em}.swal2-input-label{display:flex;justify-content:center;margin:1em auto}.swal2-validation-message{display:none;align-items:center;justify-content:center;margin:0 -2.7em;padding:.625em;overflow:hidden;background:#f0f0f0;color:#666;font-size:1em;font-weight:300}.swal2-validation-message::before{content:"!";display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center}.swal2-icon{position:relative;box-sizing:content-box;justify-content:center;width:5em;height:5em;margin:1.25em auto 1.875em;border:.25em solid transparent;border-radius:50%;font-family:inherit;line-height:5em;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474;color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;transform:rotate(-45deg)}.swal2-icon.swal2-error.swal2-icon-show{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-icon.swal2-error.swal2-icon-show .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-success{border-color:#a5dc86;color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;transform:rotate(-45deg);transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;transform:rotate(-45deg);transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-.25em;left:-.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;transform:rotate(-45deg)}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.8125em;width:1.5625em;transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;transform:rotate(-45deg)}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-progress-steps{flex-wrap:wrap;align-items:center;max-width:100%;margin:0 0 1.25em;padding:0;background:inherit;font-weight:600}.swal2-progress-steps li{display:inline-block;position:relative}.swal2-progress-steps .swal2-progress-step{z-index:20;flex-shrink:0;width:2em;height:2em;border-radius:2em;background:#2778c4;color:#fff;line-height:2em;text-align:center}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step{background:#2778c4}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step{background:#add8e6;color:#fff}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step-line{background:#add8e6}.swal2-progress-steps .swal2-progress-step-line{z-index:10;flex-shrink:0;width:2.5em;height:.4em;margin:0 -1px;background:#2778c4}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-noanimation{transition:none}.swal2-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-rtl .swal2-timer-progress-bar{right:0;left:auto}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-webkit-keyframes swal2-toast-show{0%{transform:translateY(-.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0)}}@keyframes swal2-toast-show{0%{transform:translateY(-.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0)}}@-webkit-keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@-webkit-keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(.4);opacity:0}50%{margin-top:1.625em;transform:scale(.4);opacity:0}80%{margin-top:-.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(.4);opacity:0}50%{margin-top:1.625em;transform:scale(.4);opacity:0}80%{margin-top:-.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);opacity:1}}@-webkit-keyframes swal2-rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-container{top:auto;right:auto;bottom:auto;left:auto;max-width:calc(100% - .625em * 2);background-color:transparent!important}body.swal2-no-backdrop .swal2-container>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-container.swal2-top{top:0;left:50%;transform:translateX(-50%)}body.swal2-no-backdrop .swal2-container.swal2-top-left,body.swal2-no-backdrop .swal2-container.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-container.swal2-top-end,body.swal2-no-backdrop .swal2-container.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-container.swal2-center{top:50%;left:50%;transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-container.swal2-center-left,body.swal2-no-backdrop .swal2-container.swal2-center-start{top:50%;left:0;transform:translateY(-50%)}body.swal2-no-backdrop .swal2-container.swal2-center-end,body.swal2-no-backdrop .swal2-container.swal2-center-right{top:50%;right:0;transform:translateY(-50%)}body.swal2-no-backdrop .swal2-container.swal2-bottom{bottom:0;left:50%;transform:translateX(-50%)}body.swal2-no-backdrop .swal2-container.swal2-bottom-left,body.swal2-no-backdrop .swal2-container.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-container.swal2-bottom-end,body.swal2-no-backdrop .swal2-container.swal2-bottom-right{right:0;bottom:0}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:static!important}}body.swal2-toast-shown .swal2-container{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}body.swal2-toast-column .swal2-toast{flex-direction:column;align-items:stretch}body.swal2-toast-column .swal2-toast .swal2-actions{flex:1;align-self:stretch;height:2.2em;margin-top:.3125em}body.swal2-toast-column .swal2-toast .swal2-loading{justify-content:center}body.swal2-toast-column .swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}body.swal2-toast-column .swal2-toast .swal2-validation-message{font-size:1em}</style> 
+ </head> 
+ <body class="user-dashboard"> 
+  <script>
+var TestAd="//static.surfe.pro/js/net.js";function init(){adsBlocked(function(a){a&&(Swal.fire("Disable your Ad Blocker before using our service."),setTimeout(function(){window.location.href=""},5e3))})}function adsBlocked(a){fetch(new Request("//adoto.net/dashboard/display/items.php",{method:"HEAD",mode:"no-cors"})).then(function(a){return a}).then(function(b){console.log(b),a(!1)}).catch(function(b){console.log(b),a(!0)})}!function(){var b=performance.now(),a=document.createElement("script");a.onload=function(){(performance.now()-b).toFixed(2),a.parentNode.removeChild(a)},a.onerror=function(){var a=(performance.now()-b).toFixed(2)+"ms";Swal.fire("Ad Blocker Detected","script failed to load after "+a+", Disable it or you will see this forever.","error"),setTimeout(function(){window.location.href=""},5e3)},a.src=TestAd,document.body.appendChild(a)}(),document.addEventListener("DOMContentLoaded",init,!1)
+</script> 
+  <div class="topbar"> 
+   <div class="topbar-md d-lg-none"> 
+    <div class="container"> 
+     <div class="d-flex align-items-center justify-content-between"> 
+      <a href="#" data-bs-toggle="dropdown"> 
+       <div class="toggle-icon"> 
+        <span class="toggle-line"></span> 
+        <span class="toggle-line"></span> 
+        <span class="toggle-line"></span> 
+        <span class="toggle-line"></span> 
+       </div> </a> 
+      <div class="dropdown-menu"> 
+       <div class="user-dropdown"> 
+        <ul class="user-dropdown-links"> 
+         <li class="active"><a href="https://gringofaucet.com/"> <img src="assets/img/dash/dashboard.png" width="30" height="30"> Dashboard</a></li> 
+         <li><a href="https://gringofaucet.com/transactions"><img src="assets/img/dash/transections.png" width="30" height="30"> Transactions</a></li> 
+         <li><a href="https://gringofaucet.com/withdraw"><img src="assets/img/dash/withdraw.png" width="30" height="30"> Withdraw</a></li> 
+         <li><a href="https://gringofaucet.com/links"><img src="assets/img/dash/links-wall.png" width="30" height="30"> Links Wall</a></li> 
+         <li><a href="mailto: netanojohhny@gmail.com"> <img src="assets/img/dash/contact.png" width="30" height="30"> Contact</a></li> 
+        </ul> 
+       </div> 
+      </div> 
+      <div class="site-logo"> 
+       <a href="#" class="site-brand"> <h2>Azecoins</h2> </a> 
+      </div> 
+      <div class="dropdown topbar-action-item topbar-action-user"> 
+       <a href="#" data-bs-toggle="dropdown"> <i class="fas fa-user-circle fa-2x"></i> </a> 
+       <div class="dropdown-menu dropdown-menu-end"> 
+        <div class="user-dropdown"> 
+         <div class="user-dropdown-head"> 
+          <h6 class="user-dropdown-name">User129</h6> 
+          <span class="user-dropdown-email">netanojohhny@gmail.com</span> 
+         </div> 
+         <ul class="user-dropdown-links"> 
+          <li><a href="https://gringofaucet.com/auth/logout"><i class="ti ti-power-off"></i>Logout</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="container"> 
+    <div class="d-lg-flex align-items-center justify-content-between"> 
+     <div class="topbar-lg d-none d-lg-block"> 
+      <div class="site-logo"> 
+       <a href="#" class="site-brand"> <h2>Azecoins</h2> </a> 
+      </div> 
+     </div> 
+     <div class="topbar-action d-none d-lg-block"> 
+      <ul class="topbar-action-list"> 
+       <li class="topbar-action-item topbar-action-link active"> <a href="https://gringofaucet.com/"><img src="assets/img/dash/dashboard.png" width="30" height="30"> Dashboard</a> </li> 
+       <li class="topbar-action-item topbar-action-link"> <a href="https://gringofaucet.com/transactions"><img src="assets/img/dash/transections.png" width="30" height="30"> Transactions</a> </li> 
+       <li class="topbar-action-item topbar-action-link"> <a href="https://gringofaucet.com/withdraw"><img src="assets/img/dash/withdraw.png" width="30" height="30"> Withdraw</a> </li> 
+       <li class="topbar-action-item topbar-action-link"> <a href="https://gringofaucet.com/links"><img src="assets/img/dash/links-wall.png" width="30" height="30"> Links Wall</a> </li> 
+       <li class="topbar-action-item topbar-action-link"> <a href="mailto: netanojohhny@gmail.com"><img src="assets/img/dash/contact.png" width="30" height="30"> Contact</a> </li> 
+       <li class="dropdown topbar-action-item topbar-action-user"> <a href="#" data-bs-toggle="dropdown"> <i class="fas fa-user-circle fa-2x"></i> </a> 
+        <div class="dropdown-menu dropdown-menu-end"> 
+         <div class="user-dropdown"> 
+          <div class="user-dropdown-head"> 
+           <h6 class="user-dropdown-name">User129</h6> 
+           <span class="user-dropdown-email">netanojohhny@gmail.com</span> 
+          </div> 
+          <ul class="user-dropdown-links"> 
+           <li><a href="https://gringofaucet.com/auth/logout"><i class="ti ti-power-off"></i>Logout</a></li> 
+          </ul> 
+         </div> 
+        </div> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="user-wraper"> 
+   <div class="container"> 
+    <div class="user-content"> 
+     <h3 class="text-center">Dashboard <button class="btn btn-primary btn-xs" onclick="guide()"><i class="ti ti-help"></i>Guide</button></h3> 
+     <div class="user-panel"> 
+      <div class="ads"> 
+      </div> 
+      <div class="row"> 
+       <div class="col-md-6 mb-4"> 
+        <div class="card border border-primary shadow h-100 py-2"> 
+         <div class="card-body"> 
+          <div class="row no-gutters align-items-center"> 
+           <div class="col mr-2"> 
+            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+              Account Balance
+            </div> 
+            <div class="h5 mb-0 font-weight-bold text-gray-800">
+             $0.003611
+            </div> 
+           </div> 
+           <div class="col-auto"> 
+            <img src="assets/img/dash/account-balance.png" width="40" height="40"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-md-6 mb-4"> 
+        <div class="card border border-danger shadow h-100 py-2"> 
+         <div class="card-body"> 
+          <div class="row no-gutters align-items-center"> 
+           <div class="col mr-2"> 
+            <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">
+              Active Plan
+            </div> 
+            <div class="h6 mb-0 font-weight-bold text-gray-800">
+              Bronze (10 Days)
+             <br>
+             <small id="active_time">Reduce in 6 Hours, 35 Minutes</small> 
+            </div> 
+           </div> 
+           <div class="col-auto"> 
+            <img src="assets/img/dash/active-plan.png" width="40" height="40"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div class="col-md-6 mb-4"> 
+        <div class="card border border-success shadow h-100 py-2"> 
+         <div class="card-body"> 
+          <div class="row no-gutters align-items-center"> 
+           <div class="col mr-2"> 
+            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+              Miner Balance
+            </div> 
+            <div class="h5 mb-0 font-weight-bold text-gray-800">
+             <b id="balance">$0.000865</b>
+             <small id="balance2">3000</small>
+            </div> 
+           </div> 
+           <div class="col-auto"> 
+            <a href="#" data-toggle="modal" data-target="#claimModal" class="btn btn-primary">Take</a> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-md-6 mb-4"> 
+        <div class="card border border-dark shadow h-100 py-2"> 
+         <div class="card-body"> 
+          <div class="row no-gutters align-items-center"> 
+           <div class="col mr-2"> 
+            <div class="text-xs font-weight-bold text-dark text-uppercase mb-1">
+              Next Reward
+            </div> 
+            <div id="timer" class="h5 mb-0 font-weight-bold text-gray-800">
+             <span id="minute">0</span>:
+             <span id="second">51</span>
+            </div> 
+           </div> 
+           <div class="col-auto"> 
+            <img src="assets/img/dash/next-reward.png" width="40" height="40"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-md-6 mb-4"> 
+        <div class="card border border-warning shadow h-100 py-2"> 
+         <div class="card-body"> 
+          <div class="row no-gutters align-items-center"> 
+           <div class="col mr-2"> 
+            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+              Max Value
+            </div> 
+            <div class="h5 mb-0 font-weight-bold text-gray-800">
+              $
+             <b id="valuenow">0.000865</b>
+             <small id="valuenow2">3000</small>/
+             <b>$0.001000</b>
+             <small>1000</small> 
+            </div> 
+           </div> 
+           <div class="col-auto"> 
+            <img src="assets/img/dash/max-value.png" width="40" height="40"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-md-6 mb-4"> 
+        <div class="card border border-info shadow h-100 py-2"> 
+         <div class="card-body"> 
+          <div class="row no-gutters align-items-center"> 
+           <div class="col mr-2"> 
+            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+              Mining Power
+            </div> 
+            <div class="h5 mb-0 font-weight-bold text-gray-800"> 
+             <b>$0.000050</b>
+             <small>9000</small>/minute 
+            </div> 
+           </div> 
+           <div class="col-auto"> 
+            <img src="assets/img/dash/miner-power.png" width="40" height="40"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="alert text-center" style="background-color:#0029ff;color:white;font-weight:600;">
+       Invite your friends and earn 90% of their claim. Your referral links is: 
+       <input value="https://gringofaucet.com/?r=129" style="color:blac;"> 
+       <br>
+       <span class="text-light font-weight-medium">Referrals: 0</span> 
+      </div> 
+      <div class="text-center mb-4"> 
+       <button class="btn btn-primary btn-lg" type="button" data-toggle="collapse" data-target="#allplans" aria-expanded="false" aria-controls="allplans"> Mining Plans </button> 
+      </div> 
+      <div class="collapse" id="allplans"> 
+       <div class="alert text-center" style="background-color:yellow;color:black;font-weight:800;black;box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;">
+         Want to make more profit? &nbsp;So you should buy the big price plan then you will get more profit. 
+       </div> 
+       <div class="row text-center"> 
+        <div class="col-lg-6 mb-4"> 
+         <div class="card shadow"> 
+          <div class="card-header bg-dark text-white"> 
+           <b>Bronze</b> 
+          </div> 
+          <div class="card-body"> 
+           <div class="row"> 
+            <div class="col-lg-12"> 
+             <p><b>Price:</b> <br>$0.55</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Active Period:</b> <br>10 days</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Max Value:</b> <br><b>$0.001000</b><small>0000</small></p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Mining Power:</b> <br><b>$0.000050</b><small>0000</small>/minute</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <form id="expand" action="https://faucetpay.io/merchant/webscr" method="POST" autocomplete="off"> 
+              <input type="hidden" name="amount1" value="0.550000" step="0.000001"> 
+              <input type="hidden" name="currency2" value=""> 
+              <input type="hidden" name="merchant_username" value="azecoins"> 
+              <input type="hidden" name="item_description" value="Deposit to Azecoins"> 
+              <input type="hidden" name="currency1" value="USD"> 
+              <input type="hidden" name="custom" value="129"> 
+              <input type="hidden" name="callback_url" value="https://gringofaucet.com/confirm/faucetpay"> 
+              <input type="hidden" name="success_url" value="https://gringofaucet.com/transactions?success=true"> 
+              <input type="hidden" name="cancel_url" value="https://gringofaucet.com/transactions?success=false"> 
+              <button type="submit" class="btn btn-dark" style="width: 80%"> Expand </button> 
+             </form> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col-lg-6 mb-4"> 
+         <div class="card shadow"> 
+          <div class="card-header bg-primary text-white"> 
+           <b>Silver</b> 
+          </div> 
+          <div class="card-body"> 
+           <div class="row"> 
+            <div class="col-lg-12"> 
+             <p><b>Price:</b> <br>$1.1</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Active Period:</b> <br>10 days</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Max Value:</b> <br><b>$0.002000</b><small>0000</small></p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Mining Power:</b> <br><b>$0.000090</b><small>0000</small>/minute</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <form id="confirm4" action="https://faucetpay.io/merchant/webscr" method="POST" autocomplete="off"> 
+              <input type="hidden" name="amount1" value="1.100000" step="0.000001"> 
+              <input type="hidden" name="currency2" value=""> 
+              <input type="hidden" name="merchant_username" value="azecoins"> 
+              <input type="hidden" name="item_description" value="Deposit to Azecoins"> 
+              <input type="hidden" name="currency1" value="USD"> 
+              <input type="hidden" name="custom" value="129"> 
+              <input type="hidden" name="callback_url" value="https://gringofaucet.com/confirm/faucetpay"> 
+              <input type="hidden" name="success_url" value="https://gringofaucet.com/transactions?success=true"> 
+              <input type="hidden" name="cancel_url" value="https://gringofaucet.com/transactions?success=false"> 
+              <button type="submit" class="btn btn-primary" style="width: 80%"> Upgrade </button> 
+             </form> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col-lg-6 mb-4"> 
+         <div class="card shadow"> 
+          <div class="card-header bg-primary text-white"> 
+           <b>Gold</b> 
+          </div> 
+          <div class="card-body"> 
+           <div class="row"> 
+            <div class="col-lg-12"> 
+             <p><b>Price:</b> <br>$5.5</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Active Period:</b> <br>10 days</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Max Value:</b> <br><b>$0.010000</b><small>0000</small></p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Mining Power:</b> <br><b>$0.000450</b><small>0000</small>/minute</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <form id="confirm5" action="https://faucetpay.io/merchant/webscr" method="POST" autocomplete="off"> 
+              <input type="hidden" name="amount1" value="5.500000" step="0.000001"> 
+              <input type="hidden" name="currency2" value=""> 
+              <input type="hidden" name="merchant_username" value="azecoins"> 
+              <input type="hidden" name="item_description" value="Deposit to Azecoins"> 
+              <input type="hidden" name="currency1" value="USD"> 
+              <input type="hidden" name="custom" value="129"> 
+              <input type="hidden" name="callback_url" value="https://gringofaucet.com/confirm/faucetpay"> 
+              <input type="hidden" name="success_url" value="https://gringofaucet.com/transactions?success=true"> 
+              <input type="hidden" name="cancel_url" value="https://gringofaucet.com/transactions?success=false"> 
+              <button type="submit" class="btn btn-primary" style="width: 80%"> Upgrade </button> 
+             </form> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col-lg-6 mb-4"> 
+         <div class="card shadow"> 
+          <div class="card-header bg-primary text-white"> 
+           <b>Diamond</b> 
+          </div> 
+          <div class="card-body"> 
+           <div class="row"> 
+            <div class="col-lg-12"> 
+             <p><b>Price:</b> <br>$11</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Active Period:</b> <br>10 days</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Max Value:</b> <br><b>$0.020000</b><small>0000</small></p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Mining Power:</b> <br><b>$0.000900</b><small>0000</small>/minute</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <form id="confirm6" action="https://faucetpay.io/merchant/webscr" method="POST" autocomplete="off"> 
+              <input type="hidden" name="amount1" value="11.000000" step="0.000001"> 
+              <input type="hidden" name="currency2" value=""> 
+              <input type="hidden" name="merchant_username" value="azecoins"> 
+              <input type="hidden" name="item_description" value="Deposit to Azecoins"> 
+              <input type="hidden" name="currency1" value="USD"> 
+              <input type="hidden" name="custom" value="129"> 
+              <input type="hidden" name="callback_url" value="https://gringofaucet.com/confirm/faucetpay"> 
+              <input type="hidden" name="success_url" value="https://gringofaucet.com/transactions?success=true"> 
+              <input type="hidden" name="cancel_url" value="https://gringofaucet.com/transactions?success=false"> 
+              <button type="submit" class="btn btn-primary" style="width: 80%"> Upgrade </button> 
+             </form> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col-lg-6 mb-4"> 
+         <div class="card shadow"> 
+          <div class="card-header bg-primary text-white"> 
+           <b>Ruby</b> 
+          </div> 
+          <div class="card-body"> 
+           <div class="row"> 
+            <div class="col-lg-12"> 
+             <p><b>Price:</b> <br>$55</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Active Period:</b> <br>10 days</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Max Value:</b> <br><b>$0.100000</b><small>0000</small></p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Mining Power:</b> <br><b>$0.004500</b><small>0000</small>/minute</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <form id="confirm7" action="https://faucetpay.io/merchant/webscr" method="POST" autocomplete="off"> 
+              <input type="hidden" name="amount1" value="55.000000" step="0.000001"> 
+              <input type="hidden" name="currency2" value=""> 
+              <input type="hidden" name="merchant_username" value="azecoins"> 
+              <input type="hidden" name="item_description" value="Deposit to Azecoins"> 
+              <input type="hidden" name="currency1" value="USD"> 
+              <input type="hidden" name="custom" value="129"> 
+              <input type="hidden" name="callback_url" value="https://gringofaucet.com/confirm/faucetpay"> 
+              <input type="hidden" name="success_url" value="https://gringofaucet.com/transactions?success=true"> 
+              <input type="hidden" name="cancel_url" value="https://gringofaucet.com/transactions?success=false"> 
+              <button type="submit" class="btn btn-primary" style="width: 80%"> Upgrade </button> 
+             </form> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col-lg-6 mb-4"> 
+         <div class="card shadow"> 
+          <div class="card-header bg-primary text-white"> 
+           <b>Emerald</b> 
+          </div> 
+          <div class="card-body"> 
+           <div class="row"> 
+            <div class="col-lg-12"> 
+             <p><b>Price:</b> <br>$110</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Active Period:</b> <br>10 days</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Max Value:</b> <br><b>$0.200000</b><small>0000</small></p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Mining Power:</b> <br><b>$0.009000</b><small>0000</small>/minute</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <form id="confirm8" action="https://faucetpay.io/merchant/webscr" method="POST" autocomplete="off"> 
+              <input type="hidden" name="amount1" value="110.000000" step="0.000001"> 
+              <input type="hidden" name="currency2" value=""> 
+              <input type="hidden" name="merchant_username" value="azecoins"> 
+              <input type="hidden" name="item_description" value="Deposit to Azecoins"> 
+              <input type="hidden" name="currency1" value="USD"> 
+              <input type="hidden" name="custom" value="129"> 
+              <input type="hidden" name="callback_url" value="https://gringofaucet.com/confirm/faucetpay"> 
+              <input type="hidden" name="success_url" value="https://gringofaucet.com/transactions?success=true"> 
+              <input type="hidden" name="cancel_url" value="https://gringofaucet.com/transactions?success=false"> 
+              <button type="submit" class="btn btn-primary" style="width: 80%"> Upgrade </button> 
+             </form> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col-lg-6 mb-4"> 
+         <div class="card shadow"> 
+          <div class="card-header bg-primary text-white"> 
+           <b>Jade</b> 
+          </div> 
+          <div class="card-body"> 
+           <div class="row"> 
+            <div class="col-lg-12"> 
+             <p><b>Price:</b> <br>$550</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Active Period:</b> <br>10 days</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Max Value:</b> <br><b>$1.000000</b><small>0000</small></p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <p><b>Mining Power:</b> <br><b>$0.045000</b><small>0000</small>/minute</p> 
+             <hr> 
+            </div> 
+            <div class="col-lg-12"> 
+             <form id="confirm9" action="https://faucetpay.io/merchant/webscr" method="POST" autocomplete="off"> 
+              <input type="hidden" name="amount1" value="550.000000" step="0.000001"> 
+              <input type="hidden" name="currency2" value=""> 
+              <input type="hidden" name="merchant_username" value="azecoins"> 
+              <input type="hidden" name="item_description" value="Deposit to Azecoins"> 
+              <input type="hidden" name="currency1" value="USD"> 
+              <input type="hidden" name="custom" value="129"> 
+              <input type="hidden" name="callback_url" value="https://azecoins.com/confirm/faucetpay"> 
+              <input type="hidden" name="success_url" value="https://azecoins.com/transactions?success=true"> 
+              <input type="hidden" name="cancel_url" value="https://azecoins.com/transactions?success=false"> 
+              <button type="submit" class="btn btn-primary" style="width: 80%"> Upgrade </button> 
+             </form> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div class="col-12 col-md-8 col-lg-6 order-md-2 mb-4"> 
+        <div class="ads"> 
+        </div> 
+       </div> 
+       <div class="col-6 col-md-2 col-lg-3 order-md-1 p-0 left-ads"></div> 
+       <div class="col-6 col-md-2 col-lg-3 order-md-3 p-0 right-ads"></div> 
+      </div> 
+      <div class="card py-2 card-body"> 
+       <h5>Miner Claim History</h5> 
+       <div class="table-responsive"> 
+        <table class="table table-report sm:mt-2"> 
+         <thead> 
+          <tr> 
+           <th scope="col">Amount</th> 
+           <th scope="col">Time</th> 
+          </tr> 
+         </thead> 
+         <tbody> 
+          <tr>
+           <td scope="row"><b>$0.000610</b><small>8000</small></td>
+           <td>17 Minutes ago</td>
+          </tr>
+          <tr>
+           <td scope="row"><b>$0.001000</b><small>1000</small></td>
+           <td>29 Minutes ago</td>
+          </tr>
+          <tr>
+           <td scope="row"><b>$0.001000</b><small>1000</small></td>
+           <td>9 Hours, 5 Minutes ago</td>
+          </tr>
+          <tr>
+           <td scope="row"><b>$0.001000</b><small>1000</small></td>
+           <td>9 Hours, 37 Minutes ago</td>
+          </tr>
+          <tr>
+           <td scope="row"><b>$0.000763</b><small>5000</small></td>
+           <td>10 Hours, 3 Minutes ago</td>
+          </tr>
+          <tr>
+           <td scope="row"><b>$0.001000</b><small>1000</small></td>
+           <td>10 Hours, 18 Minutes ago</td>
+          </tr>
+          <tr>
+           <td scope="row"><b>$0.000610</b><small>8000</small></td>
+           <td>11 Hours, 18 Minutes ago</td>
+          </tr>
+          <tr>
+           <td scope="row"><b>$0.001000</b><small>1000</small></td>
+           <td>11 Hours, 31 Minutes ago</td>
+          </tr>
+          <tr>
+           <td scope="row"><b>$0.000559</b><small>9000</small></td>
+           <td>11 Hours, 53 Minutes ago</td>
+          </tr>
+          <tr>
+           <td scope="row"><b>$0.000509</b><small>0000</small></td>
+           <td>12 Hours, 5 Minutes ago</td>
+          </tr> 
+         </tbody> 
+        </table> 
+       </div> 
+      </div> 
+      <form id="getbalance" action="https://gringofaucet.com/mining/getbalance"> 
+       <input id="token" type="hidden" name="token" value="BzT6yVYAgMo02w7edmOCXb9tlKFuiQ"> 
+      </form> 
+      <div class="modal fade" id="claimModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+       <div class="modal-dialog" role="document"> 
+        <div class="modal-content"> 
+         <div class="modal-header"> 
+          <h5 class="modal-title" id="exampleModalLabel">Complete Captcha to take your profit!</h5> 
+          <button class="close btn btn-xs btn-primary" type="button" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">×</span> </button> 
+         </div> 
+         <form class="user" action="https://azecoins.com/mining/take" method="POST"> 
+          <div class="modal-body"> 
+           <input type="hidden" name="csrf_token_name" id="token" value="1d12442929400650d81d9d52c01e3eea"> 
+           <div class="input-group row text-center"> 
+            <div class="col-lg-12 mb-3"> 
+             <center>
+              <div class="form-group">
+               <select class="form-control border border-primary" id="selectCaptcha" name="captcha"><option value="recaptchav2">Recaptcha V2</option></select>
+              </div> 
+              <div id="recaptchav2" class="captcha" style="display: block;"> 
+               <div class="g-recaptcha" data-sitekey="6LcpZhEjAAAAAAkuOgdIj407dg8_FbTNBwmTnNAr">
+                <div style="width: 304px; height: 78px;">
+                 <div>
+                  <iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcpZhEjAAAAAAkuOgdIj407dg8_FbTNBwmTnNAr&amp;co=aHR0cHM6Ly9hemVjb2lucy5jb206NDQz&amp;hl=pt-BR&amp;v=Km9gKuG06He-isPsP6saG8cn&amp;size=normal&amp;cb=7tlyx070t21k" width="304" height="78" role="presentation" name="a-lg4pw1f7kvqj" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                 </div>
+                 <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                </div>
+                <iframe style="display: none;"></iframe>
+               </div>
+              </div>
+             </center> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="modal-footer"> 
+           <button class="btn btn-primary" type="submit">Claim</button> 
+          </div> 
+         </form> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="footer-bar"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-md-7"> 
+      <span class="footer-copyright"><span id="copyright"> © 2023, <a href="https://azecoins.com/"> Azecoins</a></span></span> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script type="text/javascript">
+        var site_url = "https://btc.com/gringofaucet/";
+    </script> 
+  <script>
+window.onload = function() {
+var parentDiv = document. getElementById("abb");
+    if (parentDiv.innerHTML.indexOf("GIF") != -1) { 
+        Swal.fire("Disable your Ad Blocker before using our service."),setTimeout(function(){window.location.href=""},5e3);
+    } else {
+        parentDiv.remove();
+    }
+  
+mine();
+}
+document.querySelector('#expand').addEventListener('submit', function(e) {
+  var form = this;
+
+  e.preventDefault();
+
+  swal.fire({
+      title: "Are you sure to expand your current plan's active period?",
+      text: "Expand the active period of the plan, the price is adjusted to the price of your current active plan.",
+      icon: "warning",
+    showCancelButton: true,
+  confirmButtonText: 'Yes, i\'m sure!',
+  cancelButtonText: 'No, cancel!',
+
+    }).then((result) => {
+        if (result.isConfirmed) {
+          form.submit();
+      } else {
+        swal.fire("Cancelled", "Alright, have a nice day! :)", "error");
+      }
+    })
+});
+          document.querySelector('#confirm4').addEventListener('submit', function(e) {
+  var form = this;
+
+  e.preventDefault();
+
+  swal.fire({
+      title: "Are you sure to upgrade plan to Silver?",
+      text: "When you upgrade, if the previous plan still has an active period of more than 20 days, 50% of the price of the previous plan will be refunded, if it is less than or equal to 20 days, you will not get a refund.",
+      icon: "warning",
+    showCancelButton: true,
+  confirmButtonText: 'Yes, i\'m sure!',
+  cancelButtonText: 'No, cancel!',
+
+    }).then((result) => {
+        if (result.isConfirmed) {
+          form.submit();
+      } else {
+        swal.fire("Cancelled", "Alright, have a nice day! :)", "error");
+      }
+    })
+});
+         document.querySelector('#confirm5').addEventListener('submit', function(e) {
+  var form = this;
+
+  e.preventDefault();
+
+  swal.fire({
+      title: "Are you sure to upgrade plan to Gold?",
+      text: "When you upgrade, if the previous plan still has an active period of more than 20 days, 50% of the price of the previous plan will be refunded, if it is less than or equal to 20 days, you will not get a refund.",
+      icon: "warning",
+    showCancelButton: true,
+  confirmButtonText: 'Yes, i\'m sure!',
+  cancelButtonText: 'No, cancel!',
+
+    }).then((result) => {
+        if (result.isConfirmed) {
+          form.submit();
+      } else {
+        swal.fire("Cancelled", "Alright, have a nice day! :)", "error");
+      }
+    })
+});
+         document.querySelector('#confirm6').addEventListener('submit', function(e) {
+  var form = this;
+
+  e.preventDefault();
+
+  swal.fire({
+      title: "Are you sure to upgrade plan to Diamond?",
+      text: "When you upgrade, if the previous plan still has an active period of more than 20 days, 50% of the price of the previous plan will be refunded, if it is less than or equal to 20 days, you will not get a refund.",
+      icon: "warning",
+    showCancelButton: true,
+  confirmButtonText: 'Yes, i\'m sure!',
+  cancelButtonText: 'No, cancel!',
+
+    }).then((result) => {
+        if (result.isConfirmed) {
+          form.submit();
+      } else {
+        swal.fire("Cancelled", "Alright, have a nice day! :)", "error");
+      }
+    })
+});
+         document.querySelector('#confirm7').addEventListener('submit', function(e) {
+  var form = this;
+
+  e.preventDefault();
+
+  swal.fire({
+      title: "Are you sure to upgrade plan to Ruby?",
+      text: "When you upgrade, if the previous plan still has an active period of more than 20 days, 50% of the price of the previous plan will be refunded, if it is less than or equal to 20 days, you will not get a refund.",
+      icon: "warning",
+    showCancelButton: true,
+  confirmButtonText: 'Yes, i\'m sure!',
+  cancelButtonText: 'No, cancel!',
+
+    }).then((result) => {
+        if (result.isConfirmed) {
+          form.submit();
+      } else {
+        swal.fire("Cancelled", "Alright, have a nice day! :)", "error");
+      }
+    })
+});
+         document.querySelector('#confirm8').addEventListener('submit', function(e) {
+  var form = this;
+
+  e.preventDefault();
+
+  swal.fire({
+      title: "Are you sure to upgrade plan to Emerald?",
+      text: "When you upgrade, if the previous plan still has an active period of more than 20 days, 50% of the price of the previous plan will be refunded, if it is less than or equal to 20 days, you will not get a refund.",
+      icon: "warning",
+    showCancelButton: true,
+  confirmButtonText: 'Yes, i\'m sure!',
+  cancelButtonText: 'No, cancel!',
+
+    }).then((result) => {
+        if (result.isConfirmed) {
+          form.submit();
+      } else {
+        swal.fire("Cancelled", "Alright, have a nice day! :)", "error");
+      }
+    })
+});
+         document.querySelector('#confirm9').addEventListener('submit', function(e) {
+  var form = this;
+
+  e.preventDefault();
+
+  swal.fire({
+      title: "Are you sure to upgrade plan to Jade?",
+      text: "When you upgrade, if the previous plan still has an active period of more than 20 days, 50% of the price of the previous plan will be refunded, if it is less than or equal to 20 days, you will not get a refund.",
+      icon: "warning",
+    showCancelButton: true,
+  confirmButtonText: 'Yes, i\'m sure!',
+  cancelButtonText: 'No, cancel!',
+
+    }).then((result) => {
+        if (result.isConfirmed) {
+          form.submit();
+      } else {
+        swal.fire("Cancelled", "Alright, have a nice day! :)", "error");
+      }
+    })
+});
+    var first = false;
+var gas = true;
+function mine() {
+    if(first != true) {
+        var tims = 51;
+    }else if(first == true) {
+        var tims = 60;
+    }
+    let timer = tims,
+        current = 0;
+        first = true;
+    if (gas = true) {
+    const miner = setInterval(function() {
+        current += 1;
+        if (current >= timer) {
+            var form2 = $("#getbalance");
+            var url2 = form2.attr('action');
+            $.ajax({
+                type: "POST",
+                url: url2,
+                data: form2.serialize(),
+                success: function(data) {
+                    const obj1 = JSON.parse(data);
+                    if (obj1.status == 'success' && obj1.message3 == 'run') {
+                        document.getElementById("balance").innerHTML  = '$'+ obj1.message1;
+                        document.getElementById("balance2").innerHTML  = obj1.message2;
+                        document.getElementById("valuenow").innerHTML  = obj1.message1;
+                        document.getElementById("valuenow2").innerHTML  = obj1.message2;
+                        clearInterval(miner);
+                        mine();
+                    }else if (obj1.status == 'success' && obj1.message3 == 'stop') {
+                        document.getElementById("balance").innerHTML  = '$'+ obj1.message1;
+                        document.getElementById("balance2").innerHTML  = obj1.message2;
+                        document.getElementById("valuenow").innerHTML  = obj1.message1;
+                        document.getElementById("valuenow2").innerHTML  = obj1.message2;
+                        document.getElementById("timer").innerHTML  = 'Max value reached!';
+                        clearInterval(miner);
+                        gas = false;
+                        mine();
+                    } else {
+                        document.getElementById("balance").innerHTML  = 'Error, please reload';
+                        clearInterval(miner);
+                        gas = false;
+                        mine();
+                    }
+                }
+            });
+        } else {
+            let wait = Math.floor(timer - current);
+            let minutes = Math.floor(wait / 60);
+            let seconds = wait % 60;
+            $('#minute').text(minutes);
+            $('#second').text(seconds);
+            wait -= 1;
+        }
+    }, 1000);
+    }
+}
+async function guide(){
+const { value: guide } = await Swal.fire({
+  title: 'Select one condition',
+  input: 'select',
+  inputOptions: {
+    'Select': {
+      Mbalance: 'Miner Balance',
+      Mvalue: 'Max Value',
+      Mpower: 'Mining Power',
+      Mactive: 'Active Period',
+    }
+  },
+  showCancelButton: true,
+  inputValidator: (value) => {
+    return new Promise((resolve) => {
+      if (value === 'Mbalance') {
+        Swal.fire({
+        title: `Miner Balance`,
+        html: `Miner Balance is the balance of your active miner, Miner Balance must be withdrawn to your Account Balance, before you can withdraw it to FaucetPay.`
+        })
+      } else if (value === 'Mvalue') {
+        Swal.fire({
+        title: `Max Value`,
+        html: `Max Value is the maximum amount that Miner Balance can accommodate, if Max Value is reached, it indicates Miner Balance is full, and can no longer be filled before you withdraw it to Account Balance, each plan has a different Max Value amount.`
+        })
+      } else if (value === 'Mactive') {
+        Swal.fire({
+        title: `Active Period`,
+        html: `Active Period is the active period of your plan, if you have an active plan that is not a free plan, when the plan's active period expires, your plan will return to the free plan automatically.`
+        })
+      } else if (value === 'Mpower') {
+        Swal.fire({
+        title: `Mining Power`,
+        html: `Mining Power is the amount of $ that you can get every 1 minute, even if you are offline, if your plan is active, the miner will continue to run, make sure to go back and check the Miner's Balance and withdraw it to your Account Balance, so it doesn't get full and stop mining.`
+        })
+      }  else {
+        resolve('You need to select one condition :)')
+      }
+    })
+  }
+})
+}
+</script> 
+ </body>
+</html>
