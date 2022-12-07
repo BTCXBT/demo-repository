@@ -1,0 +1,178 @@
+name: importdescriptors
+btcversion: 24.0.0
+btcgroup: wallet
+permalink: en/doc/24.0.0/rpc/wallet/importdescriptors/
+---
+
+importdescriptors "requests"
+
+Import descriptors. This will trigger a rescan of the blockchain based on the earliest timestamp of all descriptors being imported. Requires a new wallet backup.
+
+Note: This call can take over an hour to complete if using an early timestamp; during that time, other rpc calls
+may report that the imported keys, addresses or scripts exist but related transactions are still missing.
+
+Arguments:
+1. requests                                 (json array, required) Data to be imported
+     [
+       {                                    (json object)
+         "desc": "str",                     (string, required) Descriptor to import.
+         "active": bool,                    (boolean, optional, default=false) Set this descriptor to be the active descriptor for the corresponding output type/externality
+         "range": n or [n,n],               (numeric or array) If a ranged descriptor is used, this specifies the end or the range (in the form [begin,end]) to import
+         "next_index": n,                   (numeric) If a ranged descriptor is set to active, this specifies the next index to generate addresses from
+         "timestamp": timestamp | "now",    (integer / string, required) Time from which to start rescanning the blockchain for this descriptor, in UNIX epoch time
+                                            Use the string "now" to substitute the current synced blockchain time.
+                                            "now" can be specified to bypass scanning, for outputs which are known to never have been used, and
+                                            0 can be specified to scan the entire blockchain. Blocks up to 2 hours before the earliest timestamp
+                                            of all descriptors being imported will be scanned as well as the mempool.
+         "internal": bool,                  (boolean, optional, default=false) Whether matching outputs should be treated as not incoming payments (e.g. change)
+         "label": "str",                    (string, optional, default="") Label to assign to the address, only allowed with internal=false. Disabled for ranged descriptors
+       },
+       ...
+     ]
+
+Result:
+[                              (json array) Response is an array with the same size as the input that has the execution result
+  {                            (json object)
+    "success" : true|false,    (boolean)
+    "warnings" : [             (json array, optional)
+      "str",                   (string)
+      ...
+    ],
+    "error" : {                (json object, optional)
+      ...                      JSONRPC error
+    }
+  },
+  ...
+]
+
+Examples:
+> bitcoin-cli importdescriptors '[{ "desc": "<my descriptor>", "timestamp":1455191478, "internal": true }, { "desc": "<my descriptor 2>", "label": "example 2", "timestamp": 1455191480 }]'
+> bitcoin-cli importdescriptors '[{ "desc": "<my descriptor>", "timestamp":1455191478, "active": true, "range": [0,100], "label": "<my bech32 wallet>" }]'
+name: importmulti
+btcversion: 24.0.0
+btcgroup: wallet
+permalink: en/doc/24.0.0/rpc/wallet/importmulti/
+---
+
+importmulti "requests" ( "options" )
+
+Import addresses/scripts (with private or public keys, redeem script (P2SH)), optionally rescanning the blockchain from the earliest creation time of the imported scripts. Requires a new wallet backup.
+If an address/script is imported without all of the private keys required to spend from that address, it will be watchonly. The 'watchonly' option must be set to true in this case or a warning will be returned.
+Conversely, if all the private keys are provided and the address/script is spendable, the watchonly option must be set to false, or a warning will be returned.
+
+Note: This call can take over an hour to complete if rescan is true, during that time, other rpc calls
+may report that the imported keys, addresses or scripts exist but related transactions are still missing.
+The rescan parameter can be set to false if the key was never used to create transactions. If it is set to false,
+but the key was used to create transactions, rescanblockchain needs to be called with the appropriate block range.
+Note: Use "getwalletinfo" to query the scanning progress.
+
+Arguments:
+1. requests                                                         (json array, required) Data to be imported
+     [
+       {                                                            (json object)
+         "desc": "str",                                             (string) Descriptor to import. If using descriptor, do not also provide address/scriptPubKey, scripts, or pubkeys
+         "scriptPubKey": "<script>" | { "address":"<address>" },    (string / json, required) Type of scriptPubKey (string for script, json for address). Should not be provided if using a descriptor
+         "timestamp": timestamp | "now",                            (integer / string, required) Creation time of the key expressed in UNIX epoch time,
+                                                                    or the string "now" to substitute the current synced blockchain time. The timestamp of the oldest
+                                                                    key will determine how far back blockchain rescans need to begin for missing wallet transactions.
+                                                                    "now" can be specified to bypass scanning, for keys which are known to never have been used, and
+                                                                    0 can be specified to scan the entire blockchain. Blocks up to 2 hours before the earliest key
+                                                                    creation time of all keys being imported by the importmulti call will be scanned.
+         "redeemscript": "str",                                     (string) Allowed only if the scriptPubKey is a P2SH or P2SH-P2WSH address/scriptPubKey
+         "witnessscript": "str",                                    (string) Allowed only if the scriptPubKey is a P2SH-P2WSH or P2WSH address/scriptPubKey
+         "pubkeys": [                                               (json array, optional, default=[]) Array of strings giving pubkeys to import. They must occur in P2PKH or P2WPKH scripts. They are not required when the private key is also provided (see the "keys" argument).
+           "pubKey",                                                (string)
+           ...
+         ],
+         "keys": [                                                  (json array, optional, default=[]) Array of strings giving private keys to import. The corresponding public keys must occur in the output or redeemscript.
+           "key",                                                   (string)
+           ...
+         ],
+         "range": n or [n,n],                                       (numeric or array) If a ranged descriptor is used, this specifies the end or the range (in the form [begin,end]) to import
+         "internal": bool,                                          (boolean, optional, default=false) Stating whether matching outputs should be treated as not incoming payments (also known as change)
+         "watchonly": bool,                                         (boolean, optional, default=false) Stating whether matching outputs should be considered watchonly.
+         "label": "str",                                            (string, optional, default="") Label to assign to the address, only allowed with internal=false
+         "keypool": bool,                                           (boolean, optional, default=false) Stating whether imported public keys should be added to the keypool for when users request new addresses. Only allowed when wallet private keys are disabled
+       },
+       ...
+     ]
+2. options                                                          (json object, optional)
+     {
+       "rescan": bool,                                              (boolean, optional, default=true) Scan the chain and mempool for wallet transactions after all imports.
+     }
+
+Result:
+[                              (json array) Response is an array with the same size as the input that has the execution result
+  {                            (json object)
+    "success" : true|false,    (boolean)
+    "warnings" : [             (json array, optional)
+      "str",                   (string)
+      ...
+    ],
+    "error" : {                (json object, optional)
+      ...                      JSONRPC error
+    }
+  },
+  ...
+]
+
+Examples:
+> bitcoin-cli importmulti '[{ "scriptPubKey": { "address": "<my address>" }, "timestamp":1455191478 }, { "scriptPubKey": { "address": "<my 2nd address>" }, "label": "example 2", "timestamp": 1455191480 }]'
+> bitcoin-cli importmulti '[{ "scriptPubKey": { "address": "<my address>" }, "timestamp":1455191478 }]' '{ "rescan": false}'
+name: rescanblockchain
+btcversion: 24.0.0
+btcgroup: wallet
+permalink: en/doc/24.0.0/rpc/wallet/rescanblockchain/
+---
+
+rescanblockchain ( start_height stop_height )
+
+Rescan the local blockchain for wallet related transactions.
+Note: Use "getwalletinfo" to query the scanning progress.
+
+Arguments:
+1. start_height    (numeric, optional, default=0) block height where the rescan should start
+2. stop_height     (numeric, optional) the last block height that should be scanned. If none is provided it will rescan up to the tip at return time of this call.
+
+Result:
+{                        (json object)
+  "start_height" : n,    (numeric) The block height where the rescan started (the requested height or 0)
+  "stop_height" : n      (numeric) The height of the last rescanned block. May be null in rare cases if there was a reorg and the call didn't scan any blocks because they were already scanned in the background.
+}
+
+Examples:
+> bitcoin-cli rescanblockchain 100000 120000
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id": "curltest", "method": "rescanblockchain", "params": [100000, 120000]}' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+name: createwallet
+btcversion: 24.0.0
+btcgroup: wallet
+permalink: en/doc/24.0.0/rpc/wallet/createwallet/
+---
+
+createwallet "wallet_name" ( disable_private_keys blank "passphrase" avoid_reuse descriptors load_on_startup external_signer )
+
+Creates and loads a new wallet.
+
+Arguments:
+1. wallet_name             (string, required) The name for the new wallet. If this is a path, the wallet will be created at the path location.
+2. disable_private_keys    (boolean, optional, default=false) Disable the possibility of private keys (only watchonlys are possible in this mode).
+3. blank                   (boolean, optional, default=false) Create a blank wallet. A blank wallet has no keys or HD seed. One can be set using sethdseed.
+4. passphrase              (string, optional) Encrypt the wallet with this passphrase.
+5. avoid_reuse             (boolean, optional, default=false) Keep track of coin reuse, and treat dirty and clean coins differently with privacy considerations in mind.
+6. descriptors             (boolean, optional, default=true) Create a native descriptor wallet. The wallet will use descriptors internally to handle address creation. Setting to "false" will create a legacy wallet; however, the legacy wallet type is being deprecated and support for creating and opening legacy wallets will be removed in the future.
+7. load_on_startup         (boolean, optional) Save wallet name to persistent settings and load on startup. True to add wallet to startup list, false to remove, null to leave unchanged.
+8. external_signer         (boolean, optional, default=false) Use an external signer such as a hardware wallet. Requires -signer to be configured. Wallet creation will fail if keys cannot be fetched. Requires disable_private_keys and descriptors set to true.
+
+Result:
+{                       (json object)
+  "name" : "str",       (string) The wallet name if created successfully. If the wallet was created using a full path, the wallet_name will be the full path.
+  "warning" : "str"     (string) Warning message if wallet was not loaded cleanly.
+}
+
+Examples:
+> bitcoin-cli createwallet "testwallet"
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id": "curltest", "method": "createwallet", "params": ["testwallet"]}' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+> bitcoin-cli -named createwallet wallet_name=descriptors avoid_reuse=true descriptors=true load_on_startup=true
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id": "curltest", "method": "createwallet", "params": {"wallet_name":"descriptors","avoid_reuse":true,"descriptors":true,"load_on_startup":true}}' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+
+
