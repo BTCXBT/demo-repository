@@ -1,0 +1,151 @@
+---
+name: getmemoryinfo
+btcversion: 24.0.0
+btcgroup: control
+permalink: en/doc/24.0.0/rpc/control/getmemoryinfo/
+---
+
+getmemoryinfo ( "mode" )
+
+Returns an object containing information about memory usage.
+
+Arguments:
+1. mode    (string, optional, default="stats") determines what kind of information is returned.
+           - "stats" returns general statistics about memory usage in the daemon.
+           - "mallocinfo" returns an XML string describing low-level heap state (only available if compiled with glibc 2.10+).
+
+Result (mode "stats"):
+{                         (json object)
+  "locked" : {            (json object) Information about locked memory manager
+    "used" : n,           (numeric) Number of bytes used
+    "free" : n,           (numeric) Number of bytes available in current arenas
+    "total" : n,          (numeric) Total number of bytes managed
+    "locked" : n,         (numeric) Amount of bytes that succeeded locking. If this number is smaller than total, locking pages failed at some point and key data could be swapped to disk.
+    "chunks_used" : n,    (numeric) Number allocated chunks
+    "chunks_free" : n     (numeric) Number unused chunks
+  }
+}
+
+Result (mode "mallocinfo"):
+"str"    (string) "<malloc version="1">..."
+
+Examples:
+> bitcoin-cli getmemoryinfo 
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id": "curltest", "method": "getmemoryinfo", "params": []}' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+
+
+---
+name: getrpcinfo
+btcversion: 24.0.0
+btcgroup: control
+permalink: en/doc/24.0.0/rpc/control/getrpcinfo/
+---
+
+getrpcinfo
+
+Returns details of the RPC server.
+
+Result:
+{                          (json object)
+  "active_commands" : [    (json array) All active commands
+    {                      (json object) Information about an active command
+      "method" : "str",    (string) The name of the RPC command
+      "duration" : n       (numeric) The running time in microseconds
+    },
+    ...
+  ],
+  "logpath" : "str"        (string) The complete file path to the debug log
+}
+
+Examples:
+> bitcoin-cli getrpcinfo 
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id": "curltest", "method": "getrpcinfo", "params": []}' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+
+---
+name: help
+btcversion: 24.0.0
+btcgroup: control
+permalink: en/doc/24.0.0/rpc/control/help/
+---
+
+help ( "command" )
+
+List all commands, or get help for a specified command.
+
+Arguments:
+1. command    (string, optional, default=all commands) The command to get help on
+
+Result:
+"str"    (string) The help text
+
+name: logging
+btcversion: 24.0.0
+btcgroup: control
+permalink: en/doc/24.0.0/rpc/control/logging/
+---
+
+logging ( ["include_category",...] ["exclude_category",...] )
+
+Gets and sets the logging configuration.
+When called without an argument, returns the list of categories with status that are currently being debug logged or not.
+When called with arguments, adds or removes categories from debug logging and return the lists above.
+The arguments are evaluated in order "include", "exclude".
+If an item is both included and excluded, it will thus end up being excluded.
+The valid logging categories are: addrman, bench, blockstorage, cmpctblock, coindb, estimatefee, http, i2p, ipc, leveldb, libevent, mempool, mempoolrej, net, proxy, prune, qt, rand, reindex, rpc, selectcoins, tor, util, validation, walletdb, zmq
+In addition, the following are available as category names with special meanings:
+  - "all",  "1" : represent all logging categories.
+  - "none", "0" : even if other logging categories are specified, ignore all of them.
+
+Arguments:
+1. include                    (json array, optional) The categories to add to debug logging
+     [
+       "include_category",    (string) the valid logging category
+       ...
+     ]
+2. exclude                    (json array, optional) The categories to remove from debug logging
+     [
+       "exclude_category",    (string) the valid logging category
+       ...
+     ]
+
+Result:
+{                             (json object) keys are the logging categories, and values indicates its status
+  "category" : true|false,    (boolean) if being debug logged or not. false:inactive, true:active
+  ...
+}
+
+Examples:
+> bitcoin-cli logging "[\"all\"]" "[\"http\"]"
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id": "curltest", "method": "logging", "params": [["all"], ["libevent"]]}' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+
+---
+name: stop
+btcversion: 24.0.0
+btcgroup: control
+permalink: en/doc/24.0.0/rpc/control/stop/
+---
+
+stop
+
+Request a graceful shutdown of Bitcoin Core.
+
+Result:
+"str"    (string) A string with the content 'Bitcoin Core stopping'
+
+---
+name: uptime
+btcversion: 24.0.0
+btcgroup: control
+permalink: en/doc/24.0.0/rpc/control/uptime/
+---
+
+uptime
+
+Returns the total uptime of the server.
+
+Result:
+n    (numeric) The number of seconds that the server has been running
+
+Examples:
+> bitcoin-cli uptime 
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id": "curltest", "method": "uptime", "params": []}' -H 'content-type: text/plain;' http://127.0.0.1:8332/
