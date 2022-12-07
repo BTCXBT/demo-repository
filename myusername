@@ -1,0 +1,265 @@
+---
+name: createmultisig
+btcversion: 24.0.0
+btcgroup: util
+permalink: en/doc/24.0.0/rpc/util/createmultisig/
+---
+
+createmultisig nrequired ["key",...] ( "address_type" )
+
+Creates a multi-signature address with n signature of m keys required.
+It returns a json object with the address and redeemScript.
+
+Arguments:
+1. nrequired       (numeric, required) The number of required signatures out of the n keys.
+2. keys            (json array, required) The hex-encoded public keys.
+     [
+       "key",      (string) The hex-encoded public key
+       ...
+     ]
+3. address_type    (string, optional, default="legacy") The address type to use. Options are "legacy", "p2sh-segwit", and "bech32".
+
+Result:
+{                            (json object)
+  "address" : "str",         (string) The value of the new multisig address.
+  "redeemScript" : "hex",    (string) The string value of the hex-encoded redemption script.
+  "descriptor" : "str",      (string) The descriptor for this multisig
+  "warnings" : [             (json array, optional) Any warnings resulting from the creation of this multisig
+    "str",                   (string)
+    ...
+  ]
+}
+
+Examples:
+
+Create a multisig address from 2 public keys
+> bitcoin-cli createmultisig 2 "[\"03789ed0bb717d88f7d321a368d905e7430207ebbd82bd342cf11ae157a7ace5fd\",\"03dbc6764b8884a92e871274b87583e6d5c2a58819473e17e107ef3f6aa5a61626\"]"
+
+As a JSON-RPC call
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id": "curltest", "method": "createmultisig", "params": [2, ["03789ed0bb717d88f7d321a368d905e7430207ebbd82bd342cf11ae157a7ace5fd","03dbc6764b8884a92e871274b87583e6d5c2a58819473e17e107ef3f6aa5a61626"]]}' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+---
+name: deriveaddresses
+btcversion: 24.0.0
+btcgroup: util
+permalink: en/doc/24.0.0/rpc/util/deriveaddresses/
+---
+
+deriveaddresses "descriptor" ( range )
+
+Derives one or more addresses corresponding to an output descriptor.
+Examples of output descriptors are:
+    pkh(<pubkey>)                        P2PKH outputs for the given pubkey
+    wpkh(<pubkey>)                       Native segwit P2PKH outputs for the given pubkey
+    sh(multi(<n>,<pubkey>,<pubkey>,...)) P2SH-multisig outputs for the given threshold and pubkeys
+    raw(<hex script>)                    Outputs whose scriptPubKey equals the specified hex scripts
+
+In the above, <pubkey> either refers to a fixed public key in hexadecimal notation, or to an xpub/xprv optionally followed by one
+or more path elements separated by "/", where "h" represents a hardened child key.
+For more information on output descriptors, see the documentation in the doc/descriptors.md file.
+
+Arguments:
+1. descriptor    (string, required) The descriptor.
+2. range         (numeric or array, optional) If a ranged descriptor is used, this specifies the end or the range (in [begin,end] notation) to derive.
+
+Result:
+[           (json array)
+  "str",    (string) the derived addresses
+  ...
+]
+
+Examples:
+First three native segwit receive addresses
+> bitcoin-cli deriveaddresses "wpkh([d34db33f/84h/0h/0h]xpub6DJ2dNUysrn5Vt36jH2KLBT2i1auw1tTSSomg8PhqNiUtx8QX2SvC9nrHu81fT41fvDUnhMjEzQgXnQjKEu3oaqMSzhSrHMxyyoEAmUHQbY/0/*)#cjjspncu" "[0,2]"
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id": "curltest", "method": "deriveaddresses", "params": ["wpkh([d34db33f/84h/0h/0h]xpub6DJ2dNUysrn5Vt36jH2KLBT2i1auw1tTSSomg8PhqNiUtx8QX2SvC9nrHu81fT41fvDUnhMjEzQgXnQjKEu3oaqMSzhSrHMxyyoEAmUHQbY/0/*)#cjjspncu", "[0,2]"]}' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+name: estimatesmartfee
+btcversion: 24.0.0
+btcgroup: util
+permalink: en/doc/24.0.0/rpc/util/estimatesmartfee/
+---
+
+estimatesmartfee conf_target ( "estimate_mode" )
+
+Estimates the approximate fee per kilobyte needed for a transaction to begin
+confirmation within conf_target blocks if possible and return the number of blocks
+for which the estimate is valid. Uses virtual transaction size as defined
+in BIP 141 (witness data is discounted).
+
+Arguments:
+1. conf_target      (numeric, required) Confirmation target in blocks (1 - 1008)
+2. estimate_mode    (string, optional, default="conservative") The fee estimate mode.
+                    Whether to return a more conservative estimate which also satisfies
+                    a longer history. A conservative estimate potentially returns a
+                    higher feerate and is more likely to be sufficient for the desired
+                    target, but is not as responsive to short term drops in the
+                    prevailing fee market. Must be one of (case insensitive):
+                    "unset"
+                    "economical"
+                    "conservative"
+
+Result:
+{                   (json object)
+  "feerate" : n,    (numeric, optional) estimate fee rate in BTC/kvB (only present if no errors were encountered)
+  "errors" : [      (json array, optional) Errors encountered during processing (if there are any)
+    "str",          (string) error
+    ...
+  ],
+  "blocks" : n      (numeric) block number where estimate was found
+                    The request target will be clamped between 2 and the highest target
+                    fee estimation is able to return based on how long it has been running.
+                    An error is returned if not enough transactions and blocks
+                    have been observed to make an estimate for any number of blocks.
+}
+
+Examples:
+> bitcoin-cli estimatesmartfee 6
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id": "curltest", "method": "estimatesmartfee", "params": [6]}' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+
+name: getdescriptorinfo
+btcversion: 24.0.0
+btcgroup: util
+permalink: en/doc/24.0.0/rpc/util/getdescriptorinfo/
+---
+
+getdescriptorinfo "descriptor"
+
+Analyses a descriptor.
+
+Arguments:
+1. descriptor    (string, required) The descriptor.
+
+Result:
+{                                   (json object)
+  "descriptor" : "str",             (string) The descriptor in canonical form, without private keys
+  "checksum" : "str",               (string) The checksum for the input descriptor
+  "isrange" : true|false,           (boolean) Whether the descriptor is ranged
+  "issolvable" : true|false,        (boolean) Whether the descriptor is solvable
+  "hasprivatekeys" : true|false     (boolean) Whether the input descriptor contained at least one private key
+}
+
+Examples:
+Analyse a descriptor
+> bitcoin-cli getdescriptorinfo "wpkh([d34db33f/84h/0h/0h]0279be667ef9dcbbac55a06295Ce870b07029Bfcdb2dce28d959f2815b16f81798)"
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id": "curltest", "method": "getdescriptorinfo", "params": ["wpkh([d34db33f/84h/0h/0h]0279be667ef9dcbbac55a06295Ce870b07029Bfcdb2dce28d959f2815b16f81798)"]}' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+name: getindexinfo
+btcversion: 24.0.0
+btcgroup: util
+permalink: en/doc/24.0.0/rpc/util/getindexinfo/
+---
+
+getindexinfo ( "index_name" )
+
+Returns the status of one or all available indices currently running in the node.
+
+Arguments:
+1. index_name    (string, optional) Filter results for an index with a specific name.
+
+Result:
+{                               (json object)
+  "name" : {                    (json object) The name of the index
+    "synced" : true|false,      (boolean) Whether the index is synced or not
+    "best_block_height" : n     (numeric) The block height to which the index is synced
+  },
+  ...
+}
+
+Examples:
+> bitcoin-cli getindexinfo 
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id": "curltest", "method": "getindexinfo", "params": []}' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+> bitcoin-cli getindexinfo txindex
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id": "curltest", "method": "getindexinfo", "params": [txindex]}' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+
+name: signmessagewithprivkey
+btcversion: 24.0.0
+btcgroup: util
+permalink: en/doc/24.0.0/rpc/util/signmessagewithprivkey/
+---
+
+signmessagewithprivkey "privkey" "message"
+
+Sign a message with the private key of an address
+
+Arguments:
+1. privkey    (string, required) The private key to sign the message with.
+2. message    (string, required) The message to create a signature of.
+
+Result:
+"str"    (string) The signature of the message encoded in base 64
+
+Examples:
+
+Create the signature
+> bitcoin-cli signmessagewithprivkey "privkey" "my message"
+
+Verify the signature
+> bitcoin-cli verifymessage "1D1ZrZNe3JUo7ZycKEYQQiQAWd9y54F4XX" "signature" "my message"
+
+As a JSON-RPC call
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id": "curltest", "method": "signmessagewithprivkey", "params": ["privkey", "my message"]}' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+name: validateaddress
+btcversion: 24.0.0
+btcgroup: util
+permalink: en/doc/24.0.0/rpc/util/validateaddress/
+---
+
+validateaddress "address"
+
+Return information about the given bitcoin address.
+
+Arguments:
+1. address    (string, required) The bitcoin address to validate
+
+Result:
+{                               (json object)
+  "isvalid" : true|false,       (boolean) If the address is valid or not
+  "address" : "str",            (string, optional) The bitcoin address validated
+  "scriptPubKey" : "hex",       (string, optional) The hex-encoded scriptPubKey generated by the address
+  "isscript" : true|false,      (boolean, optional) If the key is a script
+  "iswitness" : true|false,     (boolean, optional) If the address is a witness address
+  "witness_version" : n,        (numeric, optional) The version number of the witness program
+  "witness_program" : "hex",    (string, optional) The hex value of the witness program
+  "error" : "str",              (string, optional) Error message, if any
+  "error_locations" : [         (json array, optional) Indices of likely error locations in address, if known (e.g. Bech32 errors)
+    n,                          (numeric) index of a potential error
+    ...
+  ]
+}
+
+Examples:
+> bitcoin-cli validateaddress "bc1q09vm5lfy0j5reeulh4x5752q25uqqvz34hufdl"
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id": "curltest", "method": "validateaddress", "params": ["bc1q09vm5lfy0j5reeulh4x5752q25uqqvz34hufdl"]}' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+
+---
+name: verifymessage
+btcversion: 24.0.0
+btcgroup: util
+permalink: en/doc/24.0.0/rpc/util/verifymessage/
+---
+
+verifymessage "address" "signature" "message"
+
+Verify a signed message.
+
+Arguments:
+1. address      (string, required) The bitcoin address to use for the signature.
+2. signature    (string, required) The signature provided by the signer in base 64 encoding (see signmessage).
+3. message      (string, required) The message that was signed.
+
+Result:
+true|false    (boolean) If the signature is verified or not.
+
+Examples:
+
+Unlock the wallet for 30 seconds
+> bitcoin-cli walletpassphrase "mypassphrase" 30
+
+Create the signature
+> bitcoin-cli signmessage "1D1ZrZNe3JUo7ZycKEYQQiQAWd9y54F4XX" "my message"
+
+Verify the signature
+> bitcoin-cli verifymessage "1D1ZrZNe3JUo7ZycKEYQQiQAWd9y54F4XX" "signature" "my message"
+
+As a JSON-RPC call
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id": "curltest", "method": "verifymessage", "params": ["1D1ZrZNe3JUo7ZycKEYQQiQAWd9y54F4XX", "signature", "my message"]}' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+
+
+
