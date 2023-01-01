@@ -1,0 +1,1100 @@
+bitcoincore.org/BITCOIN Security - Hy+HTTPS/nodeBITCOIN Security - Hy+HTTPS/h node g6/>%Amanciojsilvjr<CryptoGraphyBTC.orh BITCOIN-.org
+
+
+## Reporting a Vulnerability bitcoin repository
+
+To report security issues send an email to netanojohhny@gmail.com.
+
+The following keys code: complete with D5833 Baseband version 8974-AAAAAJOHHNY2004ORKUTANAZQ-OO112-61 *#67# may be used to communicate sensitive information to developers:
+
+Name	bitcoin
+MIT	Gh66 Jo6243 Petro673420 Amanc987979 Orku1548932 IP?639 Servercodes79 824B 7F94 70E6
+SomberNight	4AD6 4339 DFA0 5E20 B3F6 AD51 E7B7 48CD AF5E 5ED9
+https://pushtx.btc.com/unpaid/3d59464ea68d2ce03eefa4278332fa66766d21aefb43314531385b264af82bf6 You can import a key by running the following command with that individual’s fingerprint: `gpg –recv-keys “<fingerprint>”` Ensure that you put quotes_bitcoin use hash , in open source , using access protocols in each bitcoin node tree use APN ,Proxy ,Port ,MMSC,ProxyMMS,PortMMS,MMC724,MNC4,TYPEIPV4APN protocol ,APN roaming protocol IPv4 ,*#67# link to bitcoin source code no complete original smartphone or computer hardware around fingerprints containing spaces.
+
+These public keys can also be found in the Electrum git repository, in the top-level `pubkeys` folder< BIP: 371 Layer: Applications BITCOIN Ht resource robot/recognition administration and evolution Title: Taproot Fields for PSBT Author: Bitcoin <joazinho_mc@yahoo.com.br> Comments-Summary: No comments yet. Comments-URI: https//btc.com Status: Draft Type: Standards Track Created: 2021-08-22 BSD-2-Clause
+
+href="https://ioc.exchange/@Amanciojsilvjr">Mastodon</a>
+
+@@ -22,7 +22,7 @@ Where proposed content is about Bitcoin Core project policy, there should rough
+
+## Translation Process
+
+Translation of the website is done using Transifex. To become a translator please create an account at [Transifex.com](https://transifex.com/), then apply to join the [bitcoincore.org project](https://www.transifex.com/bitcoincore/bitcoincoreorg).
+Translation of the website is done manually for now.
+
+Each document has a header called "Front Matter", which looks something like this:
+
+@@ -49,13 +49,13 @@ Translators should only translate the `title:` field, and change the language co
+    layout: post
+    ---
+
+Notice the remaining fields are left untranslated, however in Transifiex, you must copy these fields as translations (without actually translating them).
+Notice the remaining fields are left untranslated.
+
+### Important note
+
+Please be careful when translating Markdown formatting, this must be exact (including spaces). Markdown titles require a space after the header tags, e.g. `## Title`.
+
+Please note that [translations.yml](https://github.com/bitcoin-core/website/blob/master/_data/translations.yml) and [navigation.yml](https://github.com/bitcoin-core/website/blob/master/_data/navigation.yml) should be translated and submitted as normal pull-requests because they are not compatible with Transifex at this time.
+Translations, as well as [languages.yml](/_data/languages.yml), [translations.yml](/_data/translations.yml) and [navigation.yml](/_data/navigation.yml) should be translated and submitted as normal pull-requests.
+
+## License MIT audit sequence
+le.lock=amanciojoazinho m. matriz_Jollsocerr
+@@ -207,21 +207,23 @@ GEM
+      rb-inotify (~> 0.9, >= 0.9.7)
+      ruby_dep (~> 1.2)
+    mercenary (0.3.6)
+    mini_portile2 (2.4.0)
+    mini_portile2 (2.6.1)
+    minima (2.5.0)
+      jekyll (~> 3.5)
+
+Leave a comment
+      jekyll-feed (~> 0.9)
+      jekyll-seo-tag (~> 2.1)
+    minitest (5.13.0)
+    multipart-post (2.1.1)
+    nokogiri (1.10.5)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.12.5)
+      mini_portile2 (~> 2.6.1)
+      racc (~> 1.4)
+    octokit (4.14.0)
+      sawyer (~> 0.8.0, >= 0.5.3)
+    parallel (1.19.1)
+    pathutil (0.16.2)
+      forwardable-extended (~> 2.6)
+    public_suffix (3.1.1)
+    racc (1.6.0)
+    rainbow (3.0.0)
+    rb-fsevent (0.10.3)
+    rb-inotify (0.10.0)
+
+
+#bitcoin 
+
+https://google=amanciojsilvj.bitcoin.AmancioJSilvJr
+
+
+{
+  "provider": "Keybase",
+  "provider_username": "gargron",
+  "updated_at": "2019-07-21T20:14:39.596Z",
+  "proof_url": "https://keybase.io/gargron/sigchain#5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f",
+  "profile_url": "https://keybase.io/gargron"
+}
+
+Usar vários repositórios em um servidor
+Se você usar vários repositórios em um servidor, você deverá gerar um par de chaves dedicado para cada um. Você não pode reutilizar uma chave de implantação para vários repositórios.
+
+No arquivo de configuração do SSH do servidor (geralmente ~/.ssh/config), adicione uma entrada de pseudônimo para cada repositório. Por exemplo:
+
+Host github.com-repo-0
+        Hostname github.com
+        IdentityFile=/home/user/.ssh/repo-0_deploy_key
+
+Host github.com-repo-1
+        Hostname github.com
+        IdentityFile=/home/user/.ssh/repo-1_deploy_key
+Host github.com-repo-0 - O alias do repositório.
+Hostname github.com - Configura o nome de host a ser usado com o alias.
+IdentityFile=/home/user/.ssh/repo-0_deploy_key - Atribui uma chave privada ao pseudônimo.
+Em seguida, você pode usar o apelido do host para interagir com o repositório usando SSH, que usará a chave de deploy exclusiva atribuída a esse pseudônimo. Por exemplo:
+
+$ git clone git@github.com-repo-1:OWNER/repo-1.git
+Tokens do servidor para
+
+Ahaajajah
+Ahaajabaababab
+Abanaababaababababn
+Eneeksjssbsbssbsbabsabh
+Snsjssjabaabababaababaabababab
+
+https://github.com/amanciojsilvjr/digibyte/pull/1#discussion_r777158444
+-   f = open(sys.argv[1], encoding="utf8")
+-    for line in f:
+-        # skip comment lines
+-        m = re.search('^\s*#', line)
+-        if m:
+-            continue
+-
+-        # parse key=value lines
+-        m = re.search('^(\w+)\s*=\s*(\S.*)$', line)
+-        if m is None:
+-            continue
+-        settings[m.group(1)] = m.group(2)
+-    f.close()
++    with open(sys.argv[1], encoding="utf8") as f:
++        for line in f:
++            # skip comment lines
++            m = re.search('^\s*#', line)
++            if m:
++                continue
+ 
++            # parse key=value lines
++            m = re.search('^(\w+)\s*=\s*(\S.*)$', line)
++            if m is None:
++                continue
++            settings[m.group(1)] = m.group(2)
+
+-air-canjo bits bitcoin explorer 
+-value https_escript -script ::. 
+-formed amanciojsilvjr-™ tree Protocol 
+frozen value ::script concrete database
+ -Gdiehdjdisbxbdsidbddkxb14818173781487348bitcoin-concetracao_bits
+
+
+horbital root thawing ###dft'### *de.t.y.*
+
+
+https://www.un.org/development/desa/disabilities/envision2030-goal13.html
+weather source code Transfer automation codes between already installed github
+Amanciojsilvjr-bitcoin.org/PDF
+Future climate reduction carbon dioxide and others subtracted by the ozone layer. 
+
+Advanced completion code ::Hydro/ ==((johhny}}100.76.221.152 fe80::1:1:61cb:ebc8
+
+100.76.221.152
+fe80::1:1:61cb:ebc8
+*#67#
+
+
+Your account has been flagged.
+Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.
+bitcoin-core
+/
+bitcoincore.org
+Public:fhsksjsk---hekdhsk----fhskshs-----$
+bitcoincore.org/README.md6:bitcoin
+This commit does not belong to any branch on this repository, and may belong to a fork outside of the repository.
+@amanciojsilvjr
+amanciojsilvjr Update and rename README.md6 to README.md6:bitcoin
+ 1 contributor
+146 lines (109 sloc)  5.11 KB
+
+IdentityProof
+Represents a proof from an external identity provider.
+
+Attributes
+See also
+{
+  "provider": "Keybase",
+  "provider_username": "gargron",100.76.221.152
+fe80::1:1:61cb:ebc8
+  "updated_at": "2019-07-21T20:14:39.596Z",
+  "proof_url": "https://keybase.io/amanciojsilvjr gargron/sigchain#5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f",
+  "profile_url": "https://keybase.io/amanciojsilvjr gargron"
+}
+Attributes
+provider
+Description: The name of the identity provider.
+Type: String
+Version history: Added in 2.8.0
+
+provider_username
+Description: The account owner's username on the identity provider's service.
+Type: String
+Version history: Added in 2.8.0
+
+profile_url
+Description: The account owner's profile URL on the identity provider.
+Type: String (URL)
+Version history: Added in 2.8.0
+
+proof_url
+Description: A link to a statement of identity proof, hosted by the identity provider.
+Type: String (URL)
+Version history: Added in 2.8.0
+
+updated_at
+Description: When the identity proof was last updated.
+Type: String (ISO 8601 Datetime)
+Version history: Added in 2.8.0
+
+See also
+GET /api/v1/accounts/:id/identity_proofs
+/api/proofs
+About identity proofs
+app/serializers/rest/identity_proof_serializer.rb
+
+
+# [bitcoincore.org](https://bitcoin_matrix) [![Build Status](https://joazinho_mc.org/bitcoin-core/bitcoincore.org_matriz.svg?branch=master)](https://travis-ci.org/bitcoin-core/bitcoincore.org)
+
+This repository is the source code of the Bitcoin Core project website built with Jekyll.
+
+## Directory structure
+
+  - `_posts/<lang>/posts` for blog articles.
+  - `_posts/<lang>/pages` for static pages.
+  - `_posts/<lang>/releases` for Bitcoin Core release notes
+
+File names *must* be in the format `Y-m-d-title.md`, e.g. `2015-12-31-title.md`. File names can be translated.
+
+## Translations
+
+See [CONTRIBUTING.md](/CONTRIBUTING.md#translation-process) for more information.
+
+## Front Matter notes
+
+The following `Front Matter` is required for the multilingual setup in all files. The required fields are as follows:
+
+  - `name:`      group name for unique article. Each translation must share the same group name, e.g. `october15-report`
+  - `id:`        each article translation must have a unique ID. Use the language code + `-name` field. e.g. `en-october15-report`
+  - `permalink:` the must include the language code, end a trailing slash, e.g. `/en/2015/12/31/report/`.
+  - `title:`     the translated title of the article
+  - `type:`      the content type (`pages`, `posts`, `releases`, `meetings`, etc.)
+  - `layout:`    the layout template (`page`, `post`, etc.)
+  - `lang:`      the language code (`en`, `fr`, etc.)
+
+```
+---
+title: Short Title
+name: short-title
+layout: post
+type: posts
+lang: en
+id: en-short-title
+permalink: /en/2016/01/01/short-title
+---
+```
+
+## Building
+
+This website is based on [amanciojsilvjr ](https://amanciojsilvjr.com/).  To build
+locally, [install Ruby 2.5.5](https://gorails.com/setup) using system
+packages, [rvm](https://rvm.io), [rbenv](https://github.com/rbenv/rbenv), or another method.
+Then clone this repository and change directory into it:
+
+    git clone https://github.com/amanciojsilvjr/bitcoincore.org.git
+    cd bitcoincore.org
+
+Install the `bundle` utility using the Ruby package manager, `gem`, and
+then use `bundle` to install the rest of the Ruby packages needed to
+build this site.  Note, depending on your system configuration, you may
+need to run `gem` as the superuser by putting "sudo" followed by a space
+before the `gem` command.  You shouldn't need to use `sudo` with the
+`bundle` command.
+
+    gem update --system
+    gem install bundler
+    bundle install<100.76.221.152
+fe80::1:1:61cb:ebc8 *#67#📱
+
+To preview the site (this will launch a tiny webserver on port 4000):
+
+    bundle exec amanciojsilvjr server --future
+
+To simply build the site (output placed in the `_site` directory):
+
+    bundle exec amanciojsilvjr build --future
+
+Note that the `--future` parameter is only required if you're adding any
+pages dated in the future (such as prepared release announcements).
+
+To test the site:
+
+    bundle exec amanciojsilvjr build --future --drafts --unpublished
+    bundle exec htmlproofer --disable-external --url-ignore '/^\/bin/.*/' ./_site
+
+The additional parameters to `jekyll build` ensure that all possible
+pages are built and checked.
+
+## Contributing
+
+Contributions welcome. Please see [CONTRIBUTING.md](/CONTRIBUTING.md) for details.
+
+## References
+
+The website uses an old version of the [Minimal Mistakes theme][].  The
+theme's website provides [documentation][mm docs], including information
+about [configuration variables][mm config], creating [pages and posts][mm
+content], adding [new Javascript][mm js], and more.  Note that
+current documentation may describe features not available in the old
+version of the theme used by the website.
+
+[minimal mistakes theme]: https://mmistakes.github.io/minimal-mistakes/
+[mm docs]: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+[mm config]: https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+[mm content]: https://mmistakes.github.io/minimal-mistakes/docs/posts/
+[mm js]: https://mmistakes.github.io/minimal-mistakes/docs/javascript/
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms π 2023 
+Status##hhtp.ver descongelamento bitcoin português scripts :: amanciojsilvjr :: 1979@
+
+#bitcoin 
+
+https://google=amanciojsilvj.bitcoin.AmancioJSilvJr
+
+
+## Reporting a Vulnerability bitcoin repository
+
+To report security issues send an email to netanojohhny@gmail.com.
+
+The following keys code: complete with D5833 Baseband version 8974-AAAAAJOHHNY2004ORKUTANAZQ-OO112-61 *#67# may be used to communicate sensitive information to developers:
+
+
+Skip to content
+Your account has been flagged.
+Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.
+bitcoin-core
+/
+bitcoincore.org
+Public: bitcoin Github satoshiXBTBTC
+Code 79?79.
+Issues:: nuclear question 
+15 cód Orkut johhny 
+Pull requests c.thawing 
+15 cc.j 
+bitcoincore.org/Amanciojsilvjr<Google.com
+This commit does not belong to any branch on this repository, and may belong to a fork outside of the repository.
+@amanciojsilvjr
+amanciojsilvjr Create Amanciojsilvjr<Google.com
+ 1 contributor
+280 lines (217 sloc)  12.3 KB
+{% capture /dev/null %}<!-- suppress render of this part -->
+<!-- Copyright 2013 - 2016 The Bitcoin.org Project.
+     Copyright 2017 - 2023 The BitcoinCore.org Project
+     This file is licensed under the MIT License (MIT) available on
+     http://opensource.org/licenses/MIT. -->
+{% assign VERSION_SORTED_RELEASES = site.releases | sort: 'release' | reverse %}
+{% capture CURRENT_RELEASE %}{% for subver in VERSION_SORTED_RELEASES[0].release %}{{subver}}{% unless forloop.last %}.{% endunless %}{% endfor %}{% endcapture %}
+{% assign magnet = VERSION_SORTED_RELEASES[0].optional_magnetlink %}
+{% capture PATH_PREFIX %}/bin/bitcoin-core-{{CURRENT_RELEASE}}{% endcapture %}
+{% capture FILE_PREFIX %}bitcoin-{{CURRENT_RELEASE}}{% endcapture %}
+{% assign SIGNING_KEY_FINGERPRINT = "01EA5486DE18A882D4C2684590C8019E36C2E964" %}
+{% capture SIGNING_KEY_FINGERPRINT_EXPLODED %}{% include fingerprint-split.html hex=SIGNING_KEY_FINGERPRINT %}{% endcapture %}
+{% assign GPG_DOWNLOAD_URL = "https://www.gnupg.org/download/index.en.html#binary" %}
+{% assign GPG_MACOS_DOWNLOAD_URL = "https://gpgtools.org/" %}
+{% assign GPG_WINDOWS_DOWNLOAD_URL = "https://gpg4win.org/download.html" %}
+{% assign GITIAN_REPOSITORY_URL = "https://github.com/bitcoin-core/gitian.sigs" %}
+{% endcapture %}
+<link rel="alternate" type="application/rss+xml" href="/en/releasesrss.xml" title="Bitcoin Core releases">
+<div class="download">
+  <h2>{{ page.latestversion }} {{CURRENT_RELEASE}} <a type="application/rss+xml" href="/en/releasesrss.xml"><img src="/assets/images/icons/icon_rss.svg" alt="rss" class="rssicon"></a></h2>
+  <div class="mainbutton"><a id="downloadbutton" href="{{ PATH_PREFIX }}/{{ FILE_PREFIX }}-{{ site.data.binaries.win64exe }}"><img src="/assets/images/os/but_windows.svg" alt="icon"><span>{{ page.download }}</span></a></div>
+  <div class="downloadbox">
+    <p>{{ page.downloados }}</p>
+    <div>
+      <div>
+        <img src="/assets/images/os/med_win.png" alt="windows">
+        <span>
+          <a href="{{ PATH_PREFIX }}/{{ FILE_PREFIX }}-{{ site.data.binaries.win64exe }}" class="dl" id="downloadwinexe">Windows</a>
+          <span><a href="{{ PATH_PREFIX }}/{{ FILE_PREFIX }}-{{ site.data.binaries.win64exe }}" class="dl" id="win64exe">exe</a> -
+            <a href="{{ PATH_PREFIX }}/{{ FILE_PREFIX }}-{{ site.data.binaries.win64zip }}" class="dl" id="win64zip">zip</a></span>
+        </span>
+      </div>
+      <div>
+        <img src="/assets/images/os/med_osx.png" alt="osx">
+        <span>
+          <a href="{{ PATH_PREFIX }}/{{ FILE_PREFIX }}{{ site.data.binaries.macdmg }}">Mac OS X</a>
+          <span><a href="{{ PATH_PREFIX }}/{{ FILE_PREFIX }}{{ site.data.binaries.macdmg }}" class="dl" id="macdmg">dmg</a> -
+            <a href="{{ PATH_PREFIX }}/{{ FILE_PREFIX }}-{{ site.data.binaries.mactar }}" class="dl" id="mactar">tar.gz</a></span>
+        </span>
+      </div>
+      <div>
+        <img src="/assets/images/os/med_linux.png" alt="linux">
+        <span>
+          <a href="{{ PATH_PREFIX }}/{{ FILE_PREFIX }}-{{ site.data.binaries.lin64 }}" class="dl" id="lin64">Linux (tgz)</a>
+        </span>
+      </div>
+    </div>
+    <div>
+      <div>
+        <img src="/assets/images/os/arm.png" alt="ARM Linux">
+        <span>
+          <a href="{{ PATH_PREFIX }}/{{ FILE_PREFIX }}-arm-linux-gnueabihf.tar.gz" class="dl">ARM Linux</a>
+          	<span><a href="{{ PATH_PREFIX }}/{{ FILE_PREFIX }}-aarch64-linux-gnu.tar.gz" class="dl" id="lin64arm">64 bit</a> -
+            	<a href="{{ PATH_PREFIX }}/{{ FILE_PREFIX }}-arm-linux-gnueabihf.tar.gz" class="dl" id="lin32arm">32 bit</a></span>
+        </span>
+      </div>
+      <div>
+        <img src="/assets/images/os/but_riscv.svg" alt="RISC-V Linux">
+        <span>
+          <a href="{{ PATH_PREFIX }}/{{ FILE_PREFIX }}-{{ site.data.binaries.riscv64 }}.tar.gz" class="dl">RISC-V Linux</a>
+            <span><a href="{{ PATH_PREFIX }}/{{ FILE_PREFIX }}-{{ site.data.binaries.riscv64 }}.tar.gz" class="dl" id="lin64riscv">64 bit</a></span>
+        </span>
+      </div>
+      <div>
+        <img src="/assets/images/os/med_snap.svg" alt="Snap Store Linux">
+        <span>
+          <a href="https://snapcraft.io/bitcoin-core" class="dl">Snap Store Linux</a>
+        </span>
+      </div>
+    </div>
+    <p class="downloadmore">
+      <a href="{{ PATH_PREFIX }}/SHA256SUMS.asc" class="dl">{{ page.downloadsig }}</a><br>
+      <a href="{{ PATH_PREFIX }}/{{ FILE_PREFIX }}.torrent" class="dl">{{ page.downloadtorrent }}</a>
+        {% if magnet %} <a href="{{ magnet | replace: '&', '\&amp;'}}" class="magnetlink" data-proofer-ignore></a>{% endif %}<br>
+      <a href="{{ PATH_PREFIX }}/{{ FILE_PREFIX}}.tar.gz" class="dl">{{ page.source }}</a><br>
+      <a href="/en/releases">{{ page.versionhistory }}</a>
+    </p>
+    <p class="downloadkeys">
+      <span>{{ page.releasekeys }}</span>
+      v0.11.0+ <code title="{{page.pgp_key_fingerprint}}">{{SIGNING_KEY_FINGERPRINT}}</code><br>
+      {% if page.version > 2 %}<i>{{page.key_refresh}}</i><br><code>gpg{{site.strings.gpg_keyserver}} --refresh-keys</code>{% endif %}
+    </p>
+  </div>
+
+</div>
+
+  <h2 style="text-align: center">{{ page.patient }}</h2>
+  <p>{{ page.notesync | replace: '$(DATADIR_SIZE)', site.data.stats.datadir_gb | replace: '$(PRUNED_SIZE)', site.data.stats.pruned_gb | replace: '$(MONTHLY_RANGE_GB)', site.data.stats.monthly_storage_increase_range_gb }} {{ page.full_node_guide }}</p>
+
+{% if page.version > 4 %}
+  <h2 style="text-align: center" id="{{page.verify_download | slugify}}">{{page.verify_download}}</h2>
+  <p>{{page.verification_recommended}}</p>
+  <details>
+  {% assign GPG = "C:\Program Files\Gnu\GnuPg\gpg.exe" %}
+    <summary><strong>{{page.windows_instructions}}</strong></summary>
+    <ol>
+      <li><p>{{page.download_release}}</p></li>
+
+      <li><p>{{page.download_checksums}} <a href="{{ PATH_PREFIX }}/SHA256SUMS.asc">SHA256SUMS.asc</a></p></li>
+
+      <li><p>{{page.cd_to_downloads}}</p>
+
+        <pre class="highlight"><code>{{page.cd_example_windows}}</code></pre>
+
+        </li>
+
+      {% capture windows_example_binary %}{{FILE_PREFIX}}-{{site.data.binaries.win64exe}}{% endcapture %}
+      <li><p>{{page.generate_checksum | replace: "$(FILE)", windows_example_binary}}</p>
+
+        <pre class="highlight"><code>certUtil -hashfile {{windows_example_binary}} SHA256</code></pre></li>
+
+      <li><p>{{page.ensure_checksum_matches}}</p>
+
+        <pre class="highlight"><code>type SHA256SUMS.asc</code></pre></li>
+
+      <li><p>{{page.install_gpg}} <a
+      href="{{GPG_WINDOWS_DOWNLOAD_URL}}">{{page.gpg_download_page}}</a>
+      {{page.gpg_download_other}}
+      <a href="{{GPG_DOWNLOAD_URL}}">{{page.gpg_download_options}}</a></p></li>
+
+      <li><p>{{page.obtain_release_key}}</p>
+
+        <pre class="highlight"><code>{{GPG}}{{site.strings.gpg_keyserver}} --recv-keys {{SIGNING_KEY_FINGERPRINT}}</code></pre>
+
+        <p>{{page.release_key_obtained}}</p></li>
+
+      <li>{{page.verify_checksums_file}}
+
+        <pre class="highlight"><code>{{GPG}} --verify SHA256SUMS.asc</code></pre></li>
+
+      <li><p>{{page.check_gpg_output}}</p>
+        <ol><li><p>{{page.line_starts_with}} <code>gpg: {{page.localized_gpg_good_sig}}</code></p></li>
+          <li><p>{{page.complete_line_saying}} <code>{{page.localized_gpg_primary_fingerprint}} {{SIGNING_KEY_FINGERPRINT_EXPLODED}}</code></p></li>
+        </ol>
+
+        <p>{{page.gpg_trust_warning}}</p></li>
+
+    </ol>
+  </details>
+  <details>
+    {% assign GPG = "gpg" %}
+    <summary><strong>{{page.macos_instructions}}</strong></summary>
+    <ol>
+      <li><p>{{page.download_release}}</p></li>
+
+      <li><p>{{page.download_checksums}} <a href="{{ PATH_PREFIX }}/SHA256SUMS.asc">SHA256SUMS.asc</a></p></li>
+
+      <li><p>{{page.cd_to_downloads}}</p>
+
+        <pre class="highlight"><code>{{page.cd_example_linux}}</code></pre>
+
+        </li>
+
+      <li><p>{{page.verify_download_checksum}}</p>
+
+        <pre class="highlight"><code>shasum -a 256 --check SHA256SUMS.asc</code></pre>
+
+        <p>{{page.checksum_warning_and_ok | replace, "$(SHASUMS_OK)", page.localized_checksum_ok}} <code>{{FILE_PREFIX}}{{site.data.binaries.macdmg}}: {{page.localized_checksum_ok}}</code></p></li>
+
+      <li><p>{{page.install_gpg}} <a
+      href="{{GPG_MACOS_DOWNLOAD_URL}}">{{page.gpg_download_page}}</a>
+      {{page.gpg_download_other}}
+      <a href="{{GPG_DOWNLOAD_URL}}">{{page.gpg_download_options}}</a></p></li>
+
+      <li><p>{{page.obtain_release_key}}</p>
+
+        <pre class="highlight"><code>gpg{{site.strings.gpg_keyserver}} --recv-keys {{SIGNING_KEY_FINGERPRINT}}</code></pre>
+
+        <p>{{page.release_key_obtained}}</p></li>
+
+      <li>{{page.verify_checksums_file}}
+
+        <pre class="highlight"><code>gpg --verify SHA256SUMS.asc</code></pre></li>
+
+      <li><p>{{page.check_gpg_output}}</p>
+        <ol><li><p>{{page.line_starts_with}} <code>gpg: {{page.localized_gpg_good_sig}}</code></p></li>
+          <li><p>{{page.complete_line_saying}} <code>{{page.localized_gpg_primary_fingerprint}} {{SIGNING_KEY_FINGERPRINT_EXPLODED}}</code></p></li>
+        </ol>
+
+        <p>{{page.gpg_trust_warning}}</p></li>
+    </ol>
+  </details>
+
+  <details>
+    <summary><strong>{{page.linux_instructions}}</strong></summary>
+    <ol>
+      <li><p>{{page.download_release}}</p></li>
+
+      <li><p>{{page.download_checksums}} <a href="{{ PATH_PREFIX }}/SHA256SUMS.asc">SHA256SUMS.asc</a></p></li>
+
+      <li><p>{{page.cd_to_downloads}}</p>
+
+        <pre class="highlight"><code>{{page.cd_example_linux}}</code></pre>
+
+        </li>
+
+      <li><p>{{page.verify_download_checksum}}</p>
+
+        <pre class="highlight"><code>sha256sum --ignore-missing --check SHA256SUMS.asc</code></pre>
+
+        <p>{{page.checksum_warning_and_ok | replace, "$(SHASUMS_OK)", page.localized_checksum_ok}} <code>{{FILE_PREFIX}}-{{site.data.binaries.lin64}}: {{page.localized_checksum_ok}}</code></p></li>
+
+      <li><p>{{page.obtain_release_key}}</p>
+
+        <pre class="highlight"><code>gpg{{site.strings.gpg_keyserver}} --recv-keys {{SIGNING_KEY_FINGERPRINT}}</code></pre>
+
+        <p>{{page.release_key_obtained}}</p></li>
+
+      <li>{{page.verify_checksums_file}}
+
+        <pre class="highlight"><code>gpg --verify SHA256SUMS.asc</code></pre></li>
+
+      <li><p>{{page.check_gpg_output}}</p>
+        <ol><li><p>{{page.line_starts_with}} <code>gpg: {{page.localized_gpg_good_sig}}</code></p></li>
+          <li><p>{{page.complete_line_saying}} <code>{{page.localized_gpg_primary_fingerprint}} {{SIGNING_KEY_FINGERPRINT_EXPLODED}}</code></p></li>
+        </ol>
+
+        <p>{{page.gpg_trust_warning}}</p></li>
+
+    </ol>
+  </details>
+
+  {% if page.version > 3 %}
+  <details>
+    <summary><strong>{{page.snap_instructions}}</strong></summary>
+
+    <p>{{page.snap_warning}}</p>
+
+  </details>
+  {% endif %}
+
+  <h2 style="text-align: center">{{page.build_reproduction}}</h2>
+
+  <p>{{page.additional_steps}}</p>
+
+  <ul>
+    <li><p><em>{{page.reproducible_builds}}</em> {{page.build_identical_binaries}}</p></li>
+
+    <li><p><em>{{page.verified_reproduction}}</em> {{page.independently_reproducing}}</p></li>
+  </ul>
+
+  <p>{{page.verifying_and_reproducing}} <a href="{{GITIAN_REPOSITORY_URL}}">{{page.gitian_repository}}</a>.</p>
+{% endif %}{% comment %}END VERSION > 1 CONTENT{% endcomment %}
+
+<hr>
+
+<p>{{ page.notelicense }}</p>
+
+<script type="text/javascript">
+var os = 'windows64';
+if (navigator.userAgent.indexOf('Mac') != -1) var os = 'mac'
+else if (navigator.userAgent.indexOf('Linux') != -1) var os = 'linux64'
+else if (navigator.userAgent.indexOf('WOW64') != -1 || navigator.userAgent.indexOf('Win64') != -1) var os='windows64';
+var but = document.getElementById('downloadbutton');
+var linkwinexe = document.getElementById('downloadwinexe');
+var linkwinzip = document.getElementById('downloadwinzip');
+var hrefwin64exe = document.getElementById('win64exe').href;
+var hrefwin64zip = document.getElementById('win64zip').href;
+var hrefmacdmg = document.getElementById('macdmg').href;
+var hrefmactar = document.getElementById('mactar').href;
+var hreflin64 = document.getElementById('lin64').href;
+switch (os) {
+case 'windows64':
+	but.getElementsByTagName('IMG')[0].src = '/assets/images/os/but_windows.svg';
+	but.href = hrefwin64exe;
+	linkwinexe.href = hrefwin64exe;
+	linkwinzip.href = hrefwin64zip;
+break;
+case 'linux64':
+	but.getElementsByTagName('IMG')[0].src = '/assets/images/os/but_linux.png';
+	but.href = hreflin64;
+	linklin.href = hreflin64;
+break;
+case 'mac':
+	but.getElementsByTagName('IMG')[0].src = '/assets/images/os/but_mac.svg';
+	but.href = hrefmacdmg;
+break;
+}
+
+</script>orkut.com/index.html/a0c37d5d47c1403aeeea695aa0e13b92ad063851b7b3757a2a50b176e62fe93b
+Footer
+© 2023 GitHub, Inc.
+bitcoincore.org/Amanciojsilvjr<Google.com at 38f40a5949cbdef8a0453c7d030268568b052424 · bitcoin-core/bitcoincore.org
+We have Satoshi http code followed by protocol 
+Algorithm sequence :: bitcoin script org 79 real contrast number
+Sequence Adagidrfeg>script :67454897242 executive orders initial protocol 2004 
+Sequência *#67# IP Original robotic sequence 
+- script / `Gardou"
+-bitcoin org / AmancioJSilvJr record of creation. 
+Caution<java' sedsefs> center 78"34-# 
+AmancioJSilvJr_htpprj - :: ' " 
+AmancioJSilvJr_hthrj - :: ' "
+
+Contact: RISC-V team Contact: AmancioJSilvJr van der Laan
+
+---
+title: Clarifying Communications of the Bitcoin Core project
+name: clarifying-communications
+id: en-clarifying-communications
+lang: en
+permalink: /en/2016/01/28/clarification/
+layout: post
+type: post
+layout: post
+---w
+
+ Go to parent directory		
+IMG_20211228_213547.jpg	29-Dec-2021 01:42	32.0K
+IMG_20211228_213547_thumb.jpg	29-Dec-2021 01:43	9.2K
+__ia_thumb.jpg	29-Dec-2021 01:43	11.9K
+img-20211228-213547_archive.torrent	29-Dec-2021 01:43	2.0K
+img-20211228-213547_files.xml	29-Dec-2021 01:43	2.1K
+img-20211228-213547_meta.sqlite	29-Dec-2021 01:42	20.0K
+img-20211228-213547_meta.xml	29-Dec-2021 01:43	809.0B
+
+
+source 'https://bitcoin.org'
+
+## This version should match the version in Debian Stable.
+## If you update the version here, also update it in .ruby-version, .travis.yml
+## and README.md. Then push your branch and make sure Travis supports that
+## version.
+ruby '2.5.5'
+
+## If you add a new Gem below, run `bundle install` to install it.
+group :development do
+  gem 'github-pages'
+end
+
+group :testing do
+  gem 'html-proofer'
+end,cb.tb bitcoin bit=[B.bb.}\
+
+
+const std::vector<RPCResult> TransactionDescriptionString()
+           }},
+           {RPCResult::Type::STR_HEX, "replaced_by_txid", /*optional=*/true, "The txid if this tx was replaced."},
+           {RPCResult::Type::STR_HEX, "replaces_txid", /*optional=*/true, "The txid if the tx replaces one."},
+           {RPCResult::Type::STR, "comment", /*optional=*/true, ""},
+           {RPCResult::Type::STR, "to", /*optional=*/true, "If a comment to is associated with the transaction."},
+           {RPCResult::Type::NUM_TIME, "time", "The transaction time expressed in " + UNIX_EPOCH_TIME + "."},
+           {RPCResult::Type::NUM_TIME, "timereceived", "The time received expressed in " + UNIX_EPOCH_TIME + "."},
+
+
+transaction_context::TransactionReturnData,
+        },
+        solana_storage_proto::convert::generated,
+        solana_transaction_status::{InnerInstructions, Reward, Rewards, TransactionTokenBalance},
+        solana_transaction_status::{
+            InnerInstruction, InnerInstructions, Reward, Rewards, TransactionTokenBalance,
+        },
+        std::{thread::Builder, time::Duration},
++satoshi mod tests {
+        let post_balances_vec = vec![3, 2, 1];
+        let inner_instructions_vec = vec![InnerInstructions {
+            index: 0,
+            instructions: vec![CompiledInstruction::new(1, &(), vec![0])],
+            instructions: vec![InnerInstruction {
+                instruction: CompiledInstruction::new(1, &(), vec![0]),
+                stack_height: Some(2),
+            }],
+        }];
+        let log_messages_vec = vec![String::from("Test message\n")];
+        let pre_token_balances_vec = vec![];
++satoshi mod tests {
+                }
+                let inner_instructions = Some(vec![InnerInstructions {
+                    index: 0,
+                    instructions: vec![CompiledInstruction::new(1, &(), vec![0])],
+                    instructions: vec![InnerInstruction {
+                        instruction: CompiledInstruction::new(1, &(), vec![0]),
+                        stack_height: Some(2),
+                    }],
+                }]);
+                let log_messages = Some(vec![String::from("Test message\n")]);
+                let pre_token_balances = Some(vec![]);
++satoshi mod tests {
+                }
+                let inner_instructions = Some(vec![InnerInstructions {
+                    index: 0,
+                    instructions: vec![CompiledInstruction::new(1, &(), vec![0])],
+                    instructions: vec![InnerInstruction {
+                        instruction: CompiledInstruction::new(1, &(), vec![0]),
+                        stack_height: Some(2),
+                    }],
+                }]);
+                let log_messages = Some(vec![String::from("Test message\n")]);
+                let pre_token_balances = Some(vec![]);
+
+
+<div class="nk-wrap">
+            <header class="nk-header page-header is-sticky id=" header"="">
+                <!-- Header @s -->
+                <div class="header-main">
+                    <div class="header-container container">
+                        <div class="header-wrap">
+                            <!-- Logo @s -->
+                            <div class="header-logo header-logo-ls logo animated fadeInDown" data-animate="fadeInDown" data-delay=".65" style="visibility: visible; animation-delay: 0.65s;">
+                                <a href="./" class="logo-link">
+                                    </a><h2 class="logo-dark"><a href="./" class="logo-link"></a><a href="https://dminer.me"><img alt="" border="0" data-original-height="60" data-original-width="250" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_MsAJymnlnYSztwfIW0nSNvTwWU8O96m6kXRckTAI01CT-D1fc3rJWzKpcTUkkbEJTHHgEjmBpHDyK-kyRKq9IgCkG2rgZBp9oIfjCj6FxE1i0ez_uzdN6FhNm_f51nytbtvIP7lsNv1v2paaUyQeIMjBfrX0caI6dxwE-6EdP3-4RpG_ZYPsZB67Kw/s1600/logo%20%283%29.png"></a></h2>
+                                    
+                                
+                            </div>
+                            <!-- Menu Toogle @s -->
+                            <div class="header-nav-toggle">
+                                <a href="#" class="navbar-toggle" data-menu-toggle="example-menu-04">
+                                    <div class="toggle-line">
+                                        <span></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Menu @s -->
+                            <div class="header-navbar header-navbar-s3 menu-mobile">
+                                <nav class="header-menu justify-content-between" id="example-menu-04">
+                                    <ul class="menu menu-s2 animated fadeInDown" data-animate="fadeInDown" data-delay=".75" style="visibility: visible; animation-delay: 0.75s;">
+                                        <li class="menu-item"><a class="menu-link nav-link" href="#stat">Statistics</a></li>
+                                        <li class="menu-item"><a class="menu-link nav-link" href="#intro">Introduction</a></li>
+                                        <li class="menu-item"><a class="menu-link nav-link" href="#cur">Supported Currencies</a></li>
+                                        <li class="menu-item"><a class="menu-link nav-link" href="#proof">Payment Proofs</a></li>
+                                    </ul>
+                                </nav>
+                            <div class="header-navbar-overlay"></div></div><!-- .header-navbar @e -->
+                        </div>
+                    </div>
+                </div><!-- .header-main @e -->
+                <!-- Banner @s -->
+                <div class="header-banner bg-theme-alt header-banner-angled">
+                    <div class="nk-banner">
+                        <div class="banner banner-single tc-light">
+                            <div class="banner-wrap">
+                                <div class="container">
+                                 
+                                    <div class="row align-items-center justify-content-center justify-content-lg-between">
+                                        <div class="col-lg-5 col-sm-8 order-lg-last">
+                                            <div class="banner-gfx banner-gfx-re-s4 animated fadeIn" data-animate="fadeIn" data-delay="1.25" style="visibility: visible; animation-delay: 1.25s;">
+                                                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgh2yuCGvWG4sdbZtAFrAUMmjds27VyfNrDgNFgXp5rdHFVcWnSq8QE1dK8Vs9SCqSZI09Nqa_Nj1rlG8_qj6neK1-szOwx4KooxfljA_NSAFNsd6n4zh29ng767R5oJmfWDtvZpXhqTPP0SKR79wCd4gHXPzcy5nXvNFPTh28cYFzv-B-qDRjqTNu_OA/s1600/doge.png" alt="header">
+                                            </div>
+                                            <div class="abs-center w-100 index-9 text-center">
+                                                                                            </div>
+                                        </div><!-- .col -->
+                                        <div class="col-lg-6 col-sm-10 text-center text-lg-start">
+                                            <div class="banner-caption cpn tc-light">
+                                                <div class="cpn-head">
+                                                    <h1 class="title title-xl-s2 title-semibold animated" data-animate="fadeInUp" data-delay="1.35">Free Dogecoin Miner</h1>
+                                                </div>
+                                                <div class="cpn-text">
+                                                    <p class="lead-s2 animated" data-animate="fadeInUp" data-delay="1.45">Best Free Dogecoin Earning Website, Choose Your Free or Other Mining Plans And Start Earning FaucetPay Balance!</p>
+                                                </div>
+                                                <div class="cpn-action">
+                                                    <ul class="cpn-links animated" data-animate="fadeInUp" data-delay="1.55">
+                                                        <li>
+                                                        <form action="https://dminer.me/" method="POST">
+                                                            <input type="hidden" name="destination" value="login">
+                                                            <button type="submit" class="btn btn-md btn-grad btn-grad-alternet">
+                                                            <span>Login</span></button>
+                                                        </form>
+                                                    </li></ul>
+                                                </div>
+                                            </div>
+                                        </div><!-- .col -->
+                                    </div><!-- .row -->
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- .nk-banner -->
+                    <div class="header-bubbles">
+                        <div class="header-bubbles-single">
+                            <div class="header-bubbles-single-1"></div>
+                            <div class="header-bubbles-single-2"></div>
+                            <div class="header-bubbles-single-3"></div>
+                            <div class="header-bubbles-single-4"></div>
+                            <div class="header-bubbles-single-5"></div>
+                            <div class="header-bubbles-single-6"></div>
+                        </div>
+                    </div>
+                    <!-- Place Particle Js -->
+                    <div id="particles-bg" class="particles-container particles-bg" data-pt-base="#00c0fa" data-pt-base-op=".3" data-pt-line="#2b56f5" data-pt-line-op=".5" data-pt-shape="#00c0fa" data-pt-shape-op=".2"><canvas class="particles-js-canvas-el" width="1080" height="3897" style="width: 100%; height: 100%;"></canvas></div>
+                </div>
+                <!-- .header-banner @e -->
+            </header>
+            <main class="nk-pages nk-pages-angled ov-v bg-transparent">
+                <!-- Start Section -->
+                <section class="section section-intro bg-transparent pt-0 ov-v">
+                    <div class="section-bg-angle bg-white"></div>
+                    <div class="container">
+                        <div class="nk-block">
+                            <div class="row" id="stat">
+                                <div class="col-md-6">
+                                    <h6 class="title title-xs animated" data-animate="fadeInUp" data-delay="1.65">Statistics</h6>
+                                    <ul class="partner-list-s3 row flex-wrap-reverse">
+                                        <li class="col-4 animated text-center" data-animate="fadeInUp" data-delay="1.75">
+                                            <i class="fas fa-users fa-3x"></i>
+                                            <h4>8051</h4>
+                                            <p><b>Members</b></p>
+                                        </li>
+                                        <li class="col-4 animated text-center" data-animate="fadeInUp" data-delay="1.8">
+                                            <i class="fas fa-wallet fa-3x"></i>
+                                            <h4>15053</h4>
+                                            <p><b>Withdrawals</b></p>
+                                        </li>
+                                        <li class="col-4 animated text-center" data-animate="fadeInUp" data-delay="1.85">
+                                            <i class="fas fa-dollar-sign fa-3x"></i>
+                                            <h4>1,012.61437800</h4>
+                                            <p><b>DOGE earned</b></p>
+                                        </li>
+                                    </ul>
+                                </div><!-- .col -->
+                            </div><!-- .row  -->
+                        </div><!-- .block @e -->
+                        <div class="nk-block nk-block-about" id="intro">
+                            <div class="row gutter-vr-30px">
+                                <div class="col-12 col-lg-4 order-lg-last">
+                                    <div class="feature bg-black-14 round feature-s11 boxed boxed-md animated" data-animate="fadeInUp" data-delay=".3">
+                                        <h6 class="title-xs tc-primary">Introduction</h6>
+                                        <h2 class="title title-lg">Who We Are</h2>
+                                        <p>We are cloud mining service provider, We bring you the best cryptocurrency mining, provide the greatest experience in investing your money, earn cryptocurrency and withdraw it to your FaucetPay wallet.</p>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="feature feature-s11 animated" data-animate="fadeInUp" data-delay=".4">
+                                        <h2 class="title title-lg">Start Mining</h2>
+                                        <p>We provide a free plan for those of you who want to earn without investment, also complete shortlinks to increase your mining power.</p>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="feature feature-s11 animated" data-animate="fadeInUp" data-delay=".5">
+                                        <h2 class="title title-lg">Why choose Free Dogecoin Miner</h2>
+                                        <p>Joining us is the best way to earn crypto currency, easy to use and easy to understand web, earn more crypto currency by inviting relatives. and your friend.</p>
+                                    </div>
+                                </div><!-- .col -->
+                            </div><!-- .row -->
+                        </div><!-- .block @e -->
+                    </div><!-- .conatiner  -->
+                    <div class="gap-4x d-none d-md-block"></div>
+                    <div class="gap-10x d-none d-lg-block"></div>
+                </section>
+                <!-- // -->
+            </main>
+            <!-- Footer -->
+            <footer class="nk-footer bg-theme-alt nk-footer-angled">
+                <div class="overlay-bars reverse">
+                    <div class="overlay-bar-1"></div>
+                    <div class="overlay-bar-2"></div>
+                    <div class="overlay-bar-3"></div>
+                    <div class="overlay-bar-4"></div>
+                    <div class="overlay-bar-5"></div>
+                    <div class="overlay-bar-6"></div>
+                    <div class="overlay-bar-7"></div>
+                </div>
+                <div class="gap-8x"></div>
+                <div class="gap-10x"></div>
+                <div class="gap-10x"></div>
+                <div class="gap-10x"></div>
+                <div class="gap-10x"></div>
+                <section class="section section-m bg-transparent tc-light ov-v">
+                    <div class="container">
+                        <!-- Section Head @s -->
+                        <div class="section-head text-center wide-auto-sm" id="cur">
+                            <h4 class="title-xs title-semibold animated" data-animate="fadeInUp" data-delay=".1">Supported Currencies</h4>
+                        </div><!-- .section-head @e -->
+                        <!-- Block @s -->
+                        <div class="nk-block block-partners pdb-r">
+                            <ul class="partner-list partner-list-s2 flex-wrap pb-3">
+                                                            <li class="partner-logo-s3 animated" data-animate="fadeInUp" data-delay=".15"><img src="https://dminer.me/BSassets/images/currencies/doge.png" alt="DOGE"></li>
+                                                        </ul>
+                        </div>
+                        <div class="card" id="proof">
+                            <div class="card-body text-dark">
+                             <h3 class="text-dark">All Payout History</h3>
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">FaucetPay Email</th>
+                                                <th scope="col">Amount</th>
+                                                <th scope="col">Time</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr><th scope="row">15053</th><td>md******ali532@gmail.com</td><td>0.00100000 DOGE</td><td>1 Hour, 11 Minutes ago</td></tr><tr><th scope="row">15052</th><td>hu******608@gmail.com</td><td>0.01464000 DOGE</td><td>1 Hour, 17 Minutes ago</td></tr><tr><th scope="row">15051</th><td>el******@gmail.com</td><td>0.00100000 DOGE</td><td>1 Hour, 20 Minutes ago</td></tr><tr><th scope="row">15050</th><td>ha******n137ml@gmail.com</td><td>0.65000000 DOGE</td><td>1 Hour, 20 Minutes ago</td></tr><tr><th scope="row">15049</th><td>Bi******alogo@gmail.com</td><td>0.00200000 DOGE</td><td>1 Hour, 21 Minutes ago</td></tr><tr><th scope="row">15048</th><td>ja******e@mail.ru</td><td>2.00000000 DOGE</td><td>1 Hour, 22 Minutes ago</td></tr><tr><th scope="row">15047</th><td>fi******@gmail.com</td><td>0.00500000 DOGE</td><td>1 Hour, 25 Minutes ago</td></tr><tr><th scope="row">15046</th><td>db******960@gmail.com</td><td>0.00500000 DOGE</td><td>1 Hour, 27 Minutes ago</td></tr><tr><th scope="row">15045</th><td>de******era9@gmail.com</td><td>0.00420000 DOGE</td><td>1 Hour, 30 Minutes ago</td></tr><tr><th scope="row">15044</th><td>se******n.potas@web.de</td><td>1.70000000 DOGE</td><td>1 Hour, 35 Minutes ago</td></tr><tr><th scope="row">15043</th><td>as******ullah208@gmail.com</td><td>0.02083700 DOGE</td><td>1 Hour, 37 Minutes ago</td></tr><tr><th scope="row">15042</th><td>as******ullah208@gmail.com</td><td>0.50000000 DOGE</td><td>1 Hour, 39 Minutes ago</td></tr><tr><th scope="row">15041</th><td>19******k.frolov@gmail.com</td><td>0.00100000 DOGE</td><td>1 Hour, 39 Minutes ago</td></tr><tr><th scope="row">15040</th><td>ha******m@gmail.com</td><td>0.00100000 DOGE</td><td>1 Hour, 39 Minutes ago</td></tr><tr><th scope="row">15039</th><td>th******n_3322@hotmail.com</td><td>0.00100000 DOGE</td><td>1 Hour, 45 Minutes ago</td></tr><tr><th scope="row">15038</th><td>ut******man756@gmail.com</td><td>0.00100000 DOGE</td><td>1 Hour, 53 Minutes ago</td></tr><tr><th scope="row">15037</th><td>da******imah56@gmail.com</td><td>0.03800000 DOGE</td><td>1 Hour, 53 Minutes ago</td></tr><tr><th scope="row">15036</th><td>va******mmm13@gmail.com</td><td>0.00100000 DOGE</td><td>1 Hour, 54 Minutes ago</td></tr><tr><th scope="row">15035</th><td>nh******87364@gmail.com</td><td>0.00100000 DOGE</td><td>2 Hours, 1 Minute ago</td></tr><tr><th scope="row">15034</th><td>09******03a@gmail.com</td><td>0.00500000 DOGE</td><td>2 Hours, 2 Minutes ago</td></tr><tr><th scope="row">15033</th><td>ca******h089@gmail.com</td><td>0.00100000 DOGE</td><td>2 Hours, 6 Minutes ago</td></tr><tr><th scope="row">15032</th><td>ca******h089@gmail.com</td><td>0.00100000 DOGE</td><td>2 Hours, 6 Minutes ago</td></tr><tr><th scope="row">15031</th><td>bi******4@gmail.com</td><td>0.00535000 DOGE</td><td>2 Hours, 10 Minutes ago</td></tr><tr><th scope="row">15030</th><td>ar******hanth69@gmail.com</td><td>0.00500000 DOGE</td><td>2 Hours, 17 Minutes ago</td></tr><tr><th scope="row">15029</th><td>ki******875@gmail.com</td><td>0.00200000 DOGE</td><td>2 Hours, 20 Minutes ago</td></tr><tr><th scope="row">15028</th><td>ha******571@gmail.com</td><td>0.01200000 DOGE</td><td>2 Hours, 21 Minutes ago</td></tr><tr><th scope="row">15027</th><td>ru******0@gmail.com</td><td>0.00100000 DOGE</td><td>2 Hours, 25 Minutes ago</td></tr><tr><th scope="row">15026</th><td>mi******e@gmail.com</td><td>0.00248000 DOGE</td><td>2 Hours, 25 Minutes ago</td></tr><tr><th scope="row">15025</th><td>di******ani91@gmail.com</td><td>0.01596000 DOGE</td><td>2 Hours, 30 Minutes ago</td></tr><tr><th scope="row">15024</th><td>ma******hernandez@gmail.com</td><td>0.00132000 DOGE</td><td>2 Hours, 33 Minutes ago</td></tr><tr><th scope="row">15023</th><td>ve******an.divya021@gmail.com</td><td>0.00200000 DOGE</td><td>2 Hours, 36 Minutes ago</td></tr><tr><th scope="row">15022</th><td>al******a92@gmail.com</td><td>0.00865000 DOGE</td><td>2 Hours, 38 Minutes ago</td></tr><tr><th scope="row">15021</th><td>Di******restha687@gmail.com</td><td>0.15975510 DOGE</td><td>2 Hours, 41 Minutes ago</td></tr><tr><th scope="row">15020</th><td>ar******ato@gmail.com</td><td>0.06999000 DOGE</td><td>2 Hours, 41 Minutes ago</td></tr><tr><th scope="row">15019</th><td>zh******ly.kakaboz@gmail.com</td><td>0.00208000 DOGE</td><td>2 Hours, 44 Minutes ago</td></tr><tr><th scope="row">15018</th><td>ha******ng@gmail.com</td><td>0.00188000 DOGE</td><td>2 Hours, 47 Minutes ago</td></tr><tr><th scope="row">15017</th><td>ay******jaz97a@gmail.com</td><td>0.00101000 DOGE</td><td>2 Hours, 48 Minutes ago</td></tr><tr><th scope="row">15016</th><td>tk******al@gmail.com</td><td>0.04176000 DOGE</td><td>2 Hours, 48 Minutes ago</td></tr><tr><th scope="row">15015</th><td>bo******1969@gmail.com</td><td>0.03960000 DOGE</td><td>2 Hours, 49 Minutes ago</td></tr><tr><th scope="row">15014</th><td>yu******yandex.ru</td><td>0.00598000 DOGE</td><td>2 Hours, 51 Minutes ago</td></tr><tr><th scope="row">15013</th><td>ag******@gmail.com</td><td>0.00100000 DOGE</td><td>2 Hours, 52 Minutes ago</td></tr><tr><th scope="row">15012</th><td>so******ena964@gmail.com</td><td>0.00600000 DOGE</td><td>2 Hours, 52 Minutes ago</td></tr><tr><th scope="row">15011</th><td>em******ana@gmail.com</td><td>0.00267000 DOGE</td><td>2 Hours, 55 Minutes ago</td></tr><tr><th scope="row">15010</th><td>v3******r3nt@gmail.com</td><td>0.00184000 DOGE</td><td>2 Hours, 58 Minutes ago</td></tr><tr><th scope="row">15009</th><td>be******856@gmail.com</td><td>0.00833000 DOGE</td><td>3 Hours ago</td></tr><tr><th scope="row">15008</th><td>de******sanah.21711@gmail.com</td><td>0.00202000 DOGE</td><td>3 Hours, 1 Minute ago</td></tr><tr><th scope="row">15007</th><td>ma******27@gmail.com</td><td>0.00100000 DOGE</td><td>3 Hours, 1 Minute ago</td></tr><tr><th scope="row">15006</th><td>er******5@gmail.com</td><td>0.28000000 DOGE</td><td>3 Hours, 1 Minute ago</td></tr><tr><th scope="row">15005</th><td>us******@gmail.com</td><td>0.05000000 DOGE</td><td>3 Hours, 3 Minutes ago</td></tr><tr><th scope="row">15004</th><td>sh******@gmail.com</td><td>0.02270000 DOGE</td><td>3 Hours, 7 Minutes ago</td></tr>                                        </tbody>
+                                    </table>
+                                </div>     
+                            </div>  
+                        </div> 
+                        <hr class="hr hr-white-15">
+                        <!-- Block @s -->
+                        <div class="nk-block block-footer pdt-l">
+                            <div class="footer-bottom pdt-l">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7">
+                                        <div class="copyright-text copyright-text-s3">
+                                            <p><span class="d-block"><span id="copyright"> © <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>2022, <a href="https://dminer.me/"> Free Dogecoin Miner</a> </span></span></p>
+                                        </div>
+                                    </div><!-- .col -->
+                                    <div class="col-lg-5 text-lg-end">
+                                        <ul class="footer-links">
+                                            <li><a href="#">Privacy Policy</a></li>
+                                            <li><a href="#">Terms &amp; Conditions</a></li>
+                                        </ul>
+                                    </div><!-- .col -->
+                                </div><!-- .row -->
+                            </div>
+                        </div><!-- .block @e -->
+                    </div>
+                </section>
+            </footer>
+        </div>
+
+
+
+
+return math base player never loses. 
+
+1d2c423548ab9b7d6fc5bc0f77dbdab32c00dfa67c7e4f91becbf470c154e973
+hash-j player
+nonce advanced reading 109976
+original customer seed CryptoGraphyBTC
+never make player lose. Find sequence math shortcut
+      id:base 62358681710341528
+melhorar código base fonte do limbo improve limbo source codebase.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ClassicDice verify</title>
+  <link rel="stylesheet" href="./lib/main.css">
+  <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+  <script src="./lib/GoogleAnalytics.js"></script>
+  <script src="./lib/vue.min.js"></script>
+  <script src="./lib/crypto-js.js"></script>
+  <script src="./lib/tools.js"></script>
+</head>
+<body>
+
+<div id="app" class="main">
+  <h1 class="text-center pb-5">Limbo verify</h1> 
+  <hr>
+  <form class="py-5">
+    <h2 class="text-center">Input</h2>
+    <div class="form-group">
+      <input :value="client_seed" @change="client_seed = $event.target.value" class="form-control" placeholder="Client Seed">
+    </div>
+    <div class="form-group">
+      <input :value="server_seed" @change="server_seed = $event.target.value" class="form-control" placeholder="Server Seed">
+    </div>
+    <div class="form-group">
+      <input :value="server_seed_hash" @change="server_seed_hash = $event.target.value" class="form-control" placeholder="Server Seed Hash">
+    </div>
+    <div class="form-group">
+      <input :value="nonce" @change="nonce = $event.target.value" class="form-control" placeholder="Nonce">
+    </div>
+  </form>
+  <hr>
+  <form class="py-5">
+    <h2 class="text-center pb-5">Output</h2>
+    <div class="form-group">
+      <label>sha256(server_seed)</label>
+      <input class="form-control" readonly :value="sha256(server_seed)">
+    </div>
+    <div class="form-group">
+      <label>hmac_sha256(client_seed:nonce, server_seed)</label>
+      <input class="form-control" readonly :value="result_hash">
+    </div>
+  </form>
+    <hr>
+  <form class="py-5">
+    <h2 class="text-center pb-5">Results</h2>
+    <h5>Final Result</h5>
+    <h5>hmac_sha256(client_seed:nonce, server_seed)</h5>
+    <input class="form-control" readonly :value="gameResult">
+  </form>
+</div>
+</body>
+<script>
+let qs = tools.queryString();
+var app = new Vue({
+  el: '#app',
+  data: {
+    /** inputs */
+    client_seed: qs.c || '',
+    server_seed: qs.s || '',
+    server_seed_hash: qs.h || '',
+    nonce: parseInt(qs.n) || 0,
+  },
+  computed: {
+    result_hash () {
+      return this.hmac_sha256(this.client_seed + ':' + this.nonce, this.server_seed);
+    },
+    result_hash_list () {
+      return String(this.result_hash)
+    },
+    gameResult () {
+      let seed = this.result_hash_list
+      const nBits = 52; 
+      seed = seed.slice(0, nBits / 4);
+      const r = parseInt(seed, 16);
+      let X = r / Math.pow(2, nBits);
+      X = 99 / (1 - X);
+      const result = Math.floor(X);
+      return this.server_seed ? Math.max(1, result / 100) : '';
+    }
+  },
+  watch: {
+    'this.gameResult'() {
+      ga('send', 'event', 'Limbo', 'verify', this.server_seed, {metric0: this.client_seed, metric1: this.nonce})
+    }
+  },
+  created () {
+    console.log(this.result_hash_list)
+  },
+  methods: {
+    hmac_sha256 (msg, salt) {
+      return CryptoJS.HmacSHA256(msg, salt);
+    },
+    sha512 (value) {
+      return CryptoJS.SHA512(CryptoJS.enc.Utf8.parse(value));
+    },
+    parseInt (value) {
+      return window.parseInt(value, 16);
+    },
+    sha256 (value) {
+      return CryptoJS.SHA256(CryptoJS.enc.Utf8.parse(value));
+    },
+  }
+});
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
